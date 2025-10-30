@@ -1,3 +1,4 @@
+# -*- coding: utf-8 -*-
 import streamlit as st
 import os
 import json
@@ -39,7 +40,7 @@ st.markdown("""
 """, unsafe_allow_html=True)
 
 # Título
-st.markdown('<h1 class="main-header">📚 Sistema de Consulta de Documentos</h1>', unsafe_allow_html=True)
+st.markdown('<h1 class="main-header">📚 Sistema de Consulta de Documentos - Programa Cidade Saneada</h1>', unsafe_allow_html=True)
 
 # Sidebar - Configurações
 with st.sidebar:
@@ -103,15 +104,18 @@ with st.sidebar:
     st.subheader("ℹ️ Informações")
     
     if os.path.exists("./arquivos_processados.json"):
-        with open("./arquivos_processados.json", 'r', encoding='utf-8') as f:
-            registro = json.load(f)
-        
-        st.metric("Documentos processados", len(registro))
-        
-        with st.expander("Ver documentos"):
-            for hash_key, info in registro.items():
-                st.text(f"📄 {info.get('nome', 'N/A')}")
-                st.caption(f"   Páginas: {info.get('paginas', '?')} | Método: {info.get('metodo', '?')}")
+        try:
+            with open("./arquivos_processados.json", 'r', encoding='utf-8') as f:
+                registro = json.load(f)
+            
+            st.metric("Documentos processados", len(registro))
+            
+            with st.expander("Ver documentos"):
+                for hash_key, info in registro.items():
+                    st.text(f"📄 {info.get('nome', 'N/A')}")
+                    st.caption(f"   Páginas: {info.get('paginas', '?')} | Método: {info.get('metodo', '?')}")
+        except UnicodeDecodeError:
+            st.warning("⚠️ Erro ao ler arquivos_processados.json. Verifique a codificação do arquivo.")
 
 # Função de inicialização (cache para não recarregar sempre)
 @st.cache_resource
@@ -380,9 +384,12 @@ with tab3:
     
     with col1:
         if os.path.exists("./arquivos_processados.json"):
-            with open("./arquivos_processados.json", 'r', encoding='utf-8') as f:
-                registro = json.load(f)
-            st.metric("📄 Documentos", len(registro))
+            try:
+                with open("./arquivos_processados.json", 'r', encoding='utf-8') as f:
+                    registro = json.load(f)
+                st.metric("📄 Documentos", len(registro))
+            except:
+                st.metric("📄 Documentos", "Erro")
     
     with col2:
         all_docs = db.get()

@@ -1,0 +1,1258 @@
+{
+  "0d058c74c7d560773277878192a0d0d7": {
+    "nome": "00.01 CONTRATO_CONTRATO PPP.pdf",
+    "caminho": "C:\\Users\\compesa\\Desktop\\ppp_RAG\\data\\raw\\00.00 CONTRATO CT.PS.13.1.059-1\\00.01 CONTRATO\\00.01 CONTRATO_CONTRATO PPP.pdf",
+    "metodo": "extração_direta",
+    "paginas": 116,
+    "chunks": 620,
+    "data_processo": "2025-10-22T08:58:44.390131"
+  },
+  "35ad8b308c428289a87cf29e6136b15b": {
+    "nome": "00.02 ANEXO 01 DO CONTRATO - EDITAL DE LICITAÇÃO E SEUS ANEXOS (COMPACTADO)_0102-MINUTA DO CONTRATO.PDF",
+    "caminho": "C:\\Users\\compesa\\Desktop\\ppp_RAG\\data\\raw\\00.00 CONTRATO CT.PS.13.1.059-1\\00.02 ANEXO 01 DO CONTRATO - EDITAL DE LICITAÇÃO E SEUS ANEXOS (COMPACTADO)\\00.02 ANEXO 01 DO CONTRATO - EDITAL DE LICITAÇÃO E SEUS ANEXOS (COMPACTADO)_0102-MINUTA DO CONTRATO.PDF",
+    "metodo": "ocr",
+    "paginas": 137,
+    "chunks": 883,
+    "data_processo": "2025-10-22T09:05:02.820661"
+  },
+  "358e44adec3f1b54f83aff21cdeff99c": {
+    "nome": "00.02 ANEXO 01 DO CONTRATO - EDITAL DE LICITAÇÃO E SEUS ANEXOS (COMPACTADO)_0107 - LOCALIZAÇÃO DO PROJETO.PDF",
+    "caminho": "C:\\Users\\compesa\\Desktop\\ppp_RAG\\data\\raw\\00.00 CONTRATO CT.PS.13.1.059-1\\00.02 ANEXO 01 DO CONTRATO - EDITAL DE LICITAÇÃO E SEUS ANEXOS (COMPACTADO)\\00.02 ANEXO 01 DO CONTRATO - EDITAL DE LICITAÇÃO E SEUS ANEXOS (COMPACTADO)_0107 - LOCALIZAÇÃO DO PROJETO.PDF",
+    "metodo": "ocr",
+    "paginas": 46,
+    "chunks": 222,
+    "data_processo": "2025-10-22T09:07:05.883161"
+  },
+  "288841ab8eb71d75af2bc05464f94a5e": {
+    "nome": "00.02 ANEXO 01 DO CONTRATO - EDITAL DE LICITAÇÃO E SEUS ANEXOS (COMPACTADO)_0109 - TABELA DE MULTAS.PDF",
+    "caminho": "C:\\Users\\compesa\\Desktop\\ppp_RAG\\data\\raw\\00.00 CONTRATO CT.PS.13.1.059-1\\00.02 ANEXO 01 DO CONTRATO - EDITAL DE LICITAÇÃO E SEUS ANEXOS (COMPACTADO)\\00.02 ANEXO 01 DO CONTRATO - EDITAL DE LICITAÇÃO E SEUS ANEXOS (COMPACTADO)_0109 - TABELA DE MULTAS.PDF",
+    "metodo": "ocr",
+    "paginas": 1,
+    "chunks": 3,
+    "data_processo": "2025-10-22T09:07:09.931683"
+  },
+  "27ca8f6570233c8a8c80a07dced7fa9f": {
+    "nome": "00.02 ANEXO 01 DO CONTRATO - EDITAL DE LICITAÇÃO E SEUS ANEXOS (COMPACTADO)_0114 - ESTRUTURA TARIFÁRIA.PDF",
+    "caminho": "C:\\Users\\compesa\\Desktop\\ppp_RAG\\data\\raw\\00.00 CONTRATO CT.PS.13.1.059-1\\00.02 ANEXO 01 DO CONTRATO - EDITAL DE LICITAÇÃO E SEUS ANEXOS (COMPACTADO)\\00.02 ANEXO 01 DO CONTRATO - EDITAL DE LICITAÇÃO E SEUS ANEXOS (COMPACTADO)_0114 - ESTRUTURA TARIFÁRIA.PDF",
+    "metodo": "ocr",
+    "paginas": 13,
+    "chunks": 68,
+    "data_processo": "2025-10-22T09:08:52.688999"
+  },
+  "a3cdacc129af69913d94a4a69b1324c3": {
+    "nome": "anexo xiii_0101-A~1.PDF",
+    "caminho": "C:\\Users\\compesa\\Desktop\\ppp_RAG\\data\\raw\\00.00 CONTRATO CT.PS.13.1.059-1\\00.02 ANEXO 01 DO CONTRATO - EDITAL DE LICITAÇÃO E SEUS ANEXOS (COMPACTADO)\\anexo xiii\\anexo xiii_0101-A~1.PDF",
+    "metodo": "extração_direta",
+    "paginas": 1,
+    "chunks": 3,
+    "data_processo": "2025-10-22T09:09:17.136623"
+  },
+  "e2d2be12e9cb1ceffbf67d2c53fdecc1": {
+    "nome": "anexo xiii_ANEXO XIII PARTEI Recuperação de inadimolencia.pdf",
+    "caminho": "C:\\Users\\compesa\\Desktop\\ppp_RAG\\data\\raw\\00.00 CONTRATO CT.PS.13.1.059-1\\00.02 ANEXO 01 DO CONTRATO - EDITAL DE LICITAÇÃO E SEUS ANEXOS (COMPACTADO)\\anexo xiii\\anexo xiii_ANEXO XIII PARTEI Recuperação de inadimolencia.pdf",
+    "metodo": "extração_direta",
+    "paginas": 15,
+    "chunks": 98,
+    "data_processo": "2025-10-22T09:09:21.965805"
+  },
+  "838a7395bcdd918abaa404270dfe8778": {
+    "nome": "anexo xiii_ANEXO XIII PARTEII Leitura de hidrometro.pdf",
+    "caminho": "C:\\Users\\compesa\\Desktop\\ppp_RAG\\data\\raw\\00.00 CONTRATO CT.PS.13.1.059-1\\00.02 ANEXO 01 DO CONTRATO - EDITAL DE LICITAÇÃO E SEUS ANEXOS (COMPACTADO)\\anexo xiii\\anexo xiii_ANEXO XIII PARTEII Leitura de hidrometro.pdf",
+    "metodo": "extração_direta",
+    "paginas": 16,
+    "chunks": 57,
+    "data_processo": "2025-10-22T09:09:25.317626"
+  },
+  "9dd11b75e0a477ccf130784b6dc66ee6": {
+    "nome": "anexo xiii_ANEXO XIII PARTEIII Hidrômetros.pdf",
+    "caminho": "C:\\Users\\compesa\\Desktop\\ppp_RAG\\data\\raw\\00.00 CONTRATO CT.PS.13.1.059-1\\00.02 ANEXO 01 DO CONTRATO - EDITAL DE LICITAÇÃO E SEUS ANEXOS (COMPACTADO)\\anexo xiii\\anexo xiii_ANEXO XIII PARTEIII Hidrômetros.pdf",
+    "metodo": "extração_direta",
+    "paginas": 25,
+    "chunks": 92,
+    "data_processo": "2025-10-22T09:09:30.157824"
+  },
+  "3bbaa2689e2fa91128be79a41188e8fe": {
+    "nome": "anexo xiii_ANEXO XIII PARTEIV Fiscalização.pdf",
+    "caminho": "C:\\Users\\compesa\\Desktop\\ppp_RAG\\data\\raw\\00.00 CONTRATO CT.PS.13.1.059-1\\00.02 ANEXO 01 DO CONTRATO - EDITAL DE LICITAÇÃO E SEUS ANEXOS (COMPACTADO)\\anexo xiii\\anexo xiii_ANEXO XIII PARTEIV Fiscalização.pdf",
+    "metodo": "extração_direta",
+    "paginas": 18,
+    "chunks": 65,
+    "data_processo": "2025-10-22T09:09:33.708922"
+  },
+  "2edf9a2dc996d19f9f2fed5329fd674c": {
+    "nome": "anexo xiii_ANEXO XIII PARTEIX  Cadastro técnico de água.pdf",
+    "caminho": "C:\\Users\\compesa\\Desktop\\ppp_RAG\\data\\raw\\00.00 CONTRATO CT.PS.13.1.059-1\\00.02 ANEXO 01 DO CONTRATO - EDITAL DE LICITAÇÃO E SEUS ANEXOS (COMPACTADO)\\anexo xiii\\anexo xiii_ANEXO XIII PARTEIX  Cadastro técnico de água.pdf",
+    "metodo": "extração_direta",
+    "paginas": 1,
+    "chunks": 1,
+    "data_processo": "2025-10-22T09:09:34.248682"
+  },
+  "4af024af107d8a79c8fe28a589ea8722": {
+    "nome": "anexo xiii_ANEXO XIII PARTEV Cadastro.pdf",
+    "caminho": "C:\\Users\\compesa\\Desktop\\ppp_RAG\\data\\raw\\00.00 CONTRATO CT.PS.13.1.059-1\\00.02 ANEXO 01 DO CONTRATO - EDITAL DE LICITAÇÃO E SEUS ANEXOS (COMPACTADO)\\anexo xiii\\anexo xiii_ANEXO XIII PARTEV Cadastro.pdf",
+    "metodo": "extração_direta",
+    "paginas": 31,
+    "chunks": 107,
+    "data_processo": "2025-10-22T09:09:39.356758"
+  },
+  "240464b7b6c765c61e0eca0d35dbd891": {
+    "nome": "anexo xiii_ANEXO XIII PARTEVI Instalação de Ramal Predial de Água.pdf",
+    "caminho": "C:\\Users\\compesa\\Desktop\\ppp_RAG\\data\\raw\\00.00 CONTRATO CT.PS.13.1.059-1\\00.02 ANEXO 01 DO CONTRATO - EDITAL DE LICITAÇÃO E SEUS ANEXOS (COMPACTADO)\\anexo xiii\\anexo xiii_ANEXO XIII PARTEVI Instalação de Ramal Predial de Água.pdf",
+    "metodo": "extração_direta",
+    "paginas": 33,
+    "chunks": 101,
+    "data_processo": "2025-10-22T09:09:44.531867"
+  },
+  "7c17508fe75ab95b800de2ed057756c8": {
+    "nome": "anexo xiii_ANEXO XIII PARTEVII  INST E SUBS.pdf",
+    "caminho": "C:\\Users\\compesa\\Desktop\\ppp_RAG\\data\\raw\\00.00 CONTRATO CT.PS.13.1.059-1\\00.02 ANEXO 01 DO CONTRATO - EDITAL DE LICITAÇÃO E SEUS ANEXOS (COMPACTADO)\\anexo xiii\\anexo xiii_ANEXO XIII PARTEVII  INST E SUBS.pdf",
+    "metodo": "extração_direta",
+    "paginas": 1,
+    "chunks": 1,
+    "data_processo": "2025-10-22T09:09:45.083803"
+  },
+  "607abb0e7e2e22b916a0199fde7430be": {
+    "nome": "anexo xiii_ANEXO XIII PARTEVIII  Base Cartografica.pdf",
+    "caminho": "C:\\Users\\compesa\\Desktop\\ppp_RAG\\data\\raw\\00.00 CONTRATO CT.PS.13.1.059-1\\00.02 ANEXO 01 DO CONTRATO - EDITAL DE LICITAÇÃO E SEUS ANEXOS (COMPACTADO)\\anexo xiii\\anexo xiii_ANEXO XIII PARTEVIII  Base Cartografica.pdf",
+    "metodo": "extração_direta",
+    "paginas": 1,
+    "chunks": 1,
+    "data_processo": "2025-10-22T09:09:45.647770"
+  },
+  "c5850eeda0504979ee51505e898e08c5": {
+    "nome": "anexo xiii_ANEXO XIII PARTEX  Cadastro técnico de Rede de Esgoto.pdf",
+    "caminho": "C:\\Users\\compesa\\Desktop\\ppp_RAG\\data\\raw\\00.00 CONTRATO CT.PS.13.1.059-1\\00.02 ANEXO 01 DO CONTRATO - EDITAL DE LICITAÇÃO E SEUS ANEXOS (COMPACTADO)\\anexo xiii\\anexo xiii_ANEXO XIII PARTEX  Cadastro técnico de Rede de Esgoto.pdf",
+    "metodo": "extração_direta",
+    "paginas": 1,
+    "chunks": 1,
+    "data_processo": "2025-10-22T09:09:46.196735"
+  },
+  "f91e1ad2824e554b89a27ae6dea1ae7f": {
+    "nome": "EDITAL DE LICITAÇÃO - REPUBLICAÇÃO_002-2012 Edital PPP Saneamento RMR - Repubilicação.pdf",
+    "caminho": "C:\\Users\\compesa\\Desktop\\ppp_RAG\\data\\raw\\00.00 CONTRATO CT.PS.13.1.059-1\\00.02 ANEXO 01 DO CONTRATO - EDITAL DE LICITAÇÃO E SEUS ANEXOS (COMPACTADO)\\EDITAL DE LICITAÇÃO - REPUBLICAÇÃO\\EDITAL DE LICITAÇÃO - REPUBLICAÇÃO_002-2012 Edital PPP Saneamento RMR - Repubilicação.pdf",
+    "metodo": "extração_direta",
+    "paginas": 66,
+    "chunks": 346,
+    "data_processo": "2025-10-22T09:09:59.753709"
+  },
+  "14b8206befcbb3a160f68c61e06768d5": {
+    "nome": "00.04 ANEXO 03 DO CONTRATO - PROPOSTA TÉCNICA_03.00 - PROPOSTA TÉCNICA - Vol 01.pdf",
+    "caminho": "C:\\Users\\compesa\\Desktop\\ppp_RAG\\data\\raw\\00.00 CONTRATO CT.PS.13.1.059-1\\00.04 ANEXO 03 DO CONTRATO - PROPOSTA TÉCNICA\\00.04 ANEXO 03 DO CONTRATO - PROPOSTA TÉCNICA_03.00 - PROPOSTA TÉCNICA - Vol 01.pdf",
+    "metodo": "ocr",
+    "paginas": 416,
+    "chunks": 2408,
+    "data_processo": "2025-10-22T09:26:40.165620"
+  },
+  "457ce5106aff219dadbb60a79c2dc7cb": {
+    "nome": "00.04 ANEXO 03 DO CONTRATO - PROPOSTA TÉCNICA_03.01 - PROPOSTA TECNICA - Vol 02.pdf",
+    "caminho": "C:\\Users\\compesa\\Desktop\\ppp_RAG\\data\\raw\\00.00 CONTRATO CT.PS.13.1.059-1\\00.04 ANEXO 03 DO CONTRATO - PROPOSTA TÉCNICA\\00.04 ANEXO 03 DO CONTRATO - PROPOSTA TÉCNICA_03.01 - PROPOSTA TECNICA - Vol 02.pdf",
+    "metodo": "ocr",
+    "paginas": 386,
+    "chunks": 2140,
+    "data_processo": "2025-10-22T09:54:59.578494"
+  },
+  "1883b46a03d23d87b39d710f95b60e49": {
+    "nome": "00.04 ANEXO 03 DO CONTRATO - PROPOSTA TÉCNICA_03.03 - PROPOSTA TECNICA METODOLOGIA EXECUTIVA PARTE 2.pdf",
+    "caminho": "C:\\Users\\compesa\\Desktop\\ppp_RAG\\data\\raw\\00.00 CONTRATO CT.PS.13.1.059-1\\00.04 ANEXO 03 DO CONTRATO - PROPOSTA TÉCNICA\\00.04 ANEXO 03 DO CONTRATO - PROPOSTA TÉCNICA_03.03 - PROPOSTA TECNICA METODOLOGIA EXECUTIVA PARTE 2.pdf",
+    "metodo": "ocr",
+    "paginas": 230,
+    "chunks": 2152,
+    "data_processo": "2025-10-22T10:51:20.181990"
+  },
+  "b869be916461561c5fbd51a349850baf": {
+    "nome": "00.05 ANEXO 04 DO CONTRATO - PROPOSTA ECONÔMICA_04.00 - PROPOSTA ECONOMICA.pdf",
+    "caminho": "C:\\Users\\compesa\\Desktop\\ppp_RAG\\data\\raw\\00.00 CONTRATO CT.PS.13.1.059-1\\00.05 ANEXO 04 DO CONTRATO - PROPOSTA ECONÔMICA\\00.05 ANEXO 04 DO CONTRATO - PROPOSTA ECONÔMICA_04.00 - PROPOSTA ECONOMICA.pdf",
+    "metodo": "ocr",
+    "paginas": 490,
+    "chunks": 4224,
+    "data_processo": "2025-10-22T11:16:16.895282"
+  },
+  "21c72ffeb13b9a7aff0ddb93f6fa337b": {
+    "nome": "00.11 ANEXO 10 DO CONTRATO - CONDIÇÕES DE RECEBIMENTO DO SISTEMA_10.00 - CONDIÇÕES DE RECEBIMENTO DE SISTEMA.pdf",
+    "caminho": "C:\\Users\\compesa\\Desktop\\ppp_RAG\\data\\raw\\00.00 CONTRATO CT.PS.13.1.059-1\\00.11 ANEXO 10 DO CONTRATO - CONDIÇÕES DE RECEBIMENTO DO SISTEMA\\00.11 ANEXO 10 DO CONTRATO - CONDIÇÕES DE RECEBIMENTO DO SISTEMA_10.00 - CONDIÇÕES DE RECEBIMENTO DE SISTEMA.pdf",
+    "metodo": "extração_direta",
+    "paginas": 2,
+    "chunks": 10,
+    "data_processo": "2025-10-22T11:16:59.223460"
+  },
+  "b04e45f49bf24f05ee38a1482a17cc98": {
+    "nome": "ABREU E LIMA_ANEXO II - ESTRUTURA TARIFÁRIA.pdf",
+    "caminho": "C:\\Users\\compesa\\Desktop\\ppp_RAG\\data\\raw\\00.00 CONTRATO CT.PS.13.1.059-1\\00.12 ANEXO 11 DO CONTRATO - LEIS AUTORIZADAS E CONTRATOS DE PROGRAMA\\ABREU E LIMA\\ABREU E LIMA_ANEXO II - ESTRUTURA TARIFÁRIA.pdf",
+    "metodo": "ocr",
+    "paginas": 2,
+    "chunks": 5,
+    "data_processo": "2025-10-22T11:17:04.600961"
+  },
+  "6f481bab357c6c529a831a1e59191fba": {
+    "nome": "ABREU E LIMA_ANEXO III - PLANO DE METAS.pdf",
+    "caminho": "C:\\Users\\compesa\\Desktop\\ppp_RAG\\data\\raw\\00.00 CONTRATO CT.PS.13.1.059-1\\00.12 ANEXO 11 DO CONTRATO - LEIS AUTORIZADAS E CONTRATOS DE PROGRAMA\\ABREU E LIMA\\ABREU E LIMA_ANEXO III - PLANO DE METAS.pdf",
+    "metodo": "ocr",
+    "paginas": 3,
+    "chunks": 9,
+    "data_processo": "2025-10-22T11:17:09.846250"
+  },
+  "c22e863963a1762acd000bb30f4335dd": {
+    "nome": "ABREU E LIMA_ANEXO IV - PLANO MUNICIPAL DE SANEAMENTO BÁSICO.pdf",
+    "caminho": "C:\\Users\\compesa\\Desktop\\ppp_RAG\\data\\raw\\00.00 CONTRATO CT.PS.13.1.059-1\\00.12 ANEXO 11 DO CONTRATO - LEIS AUTORIZADAS E CONTRATOS DE PROGRAMA\\ABREU E LIMA\\ABREU E LIMA_ANEXO IV - PLANO MUNICIPAL DE SANEAMENTO BÁSICO.pdf",
+    "metodo": "ocr",
+    "paginas": 29,
+    "chunks": 176,
+    "data_processo": "2025-10-22T11:18:12.656579"
+  },
+  "eeb9b2116c58cdcf431afff7181cd01d": {
+    "nome": "ABREU E LIMA_ANEXO V - INVENTÁRIO DE BENS.pdf",
+    "caminho": "C:\\Users\\compesa\\Desktop\\ppp_RAG\\data\\raw\\00.00 CONTRATO CT.PS.13.1.059-1\\00.12 ANEXO 11 DO CONTRATO - LEIS AUTORIZADAS E CONTRATOS DE PROGRAMA\\ABREU E LIMA\\ABREU E LIMA_ANEXO V - INVENTÁRIO DE BENS.pdf",
+    "metodo": "ocr",
+    "paginas": 16,
+    "chunks": 43,
+    "data_processo": "2025-10-22T11:18:37.632408"
+  },
+  "4120c8e2bba04aecd756d7e9197fe086": {
+    "nome": "ABREU E LIMA_ANEXO VI - PLANO DE INVESTIMENTOS.pdf",
+    "caminho": "C:\\Users\\compesa\\Desktop\\ppp_RAG\\data\\raw\\00.00 CONTRATO CT.PS.13.1.059-1\\00.12 ANEXO 11 DO CONTRATO - LEIS AUTORIZADAS E CONTRATOS DE PROGRAMA\\ABREU E LIMA\\ABREU E LIMA_ANEXO VI - PLANO DE INVESTIMENTOS.pdf",
+    "metodo": "ocr",
+    "paginas": 6,
+    "chunks": 26,
+    "data_processo": "2025-10-22T11:18:48.916610"
+  },
+  "450a10165826a0eb628e908fd57c3009": {
+    "nome": "ABREU E LIMA_CONTRATO DE PROGRAMA CT.PR.11.3.198 DE 21-JULHO-2011.pdf",
+    "caminho": "C:\\Users\\compesa\\Desktop\\ppp_RAG\\data\\raw\\00.00 CONTRATO CT.PS.13.1.059-1\\00.12 ANEXO 11 DO CONTRATO - LEIS AUTORIZADAS E CONTRATOS DE PROGRAMA\\ABREU E LIMA\\ABREU E LIMA_CONTRATO DE PROGRAMA CT.PR.11.3.198 DE 21-JULHO-2011.pdf",
+    "metodo": "ocr",
+    "paginas": 22,
+    "chunks": 160,
+    "data_processo": "2025-10-22T11:19:47.553811"
+  },
+  "5cdfc6585a5b62e7944c622805de2dd8": {
+    "nome": "ABREU E LIMA_DECRETO ESTADUAL Nº 36.467-2011.pdf",
+    "caminho": "C:\\Users\\compesa\\Desktop\\ppp_RAG\\data\\raw\\00.00 CONTRATO CT.PS.13.1.059-1\\00.12 ANEXO 11 DO CONTRATO - LEIS AUTORIZADAS E CONTRATOS DE PROGRAMA\\ABREU E LIMA\\ABREU E LIMA_DECRETO ESTADUAL Nº 36.467-2011.pdf",
+    "metodo": "ocr",
+    "paginas": 2,
+    "chunks": 6,
+    "data_processo": "2025-10-22T11:19:52.679469"
+  },
+  "53cce782ff07c0d1f4db421722804301": {
+    "nome": "ABREU E LIMA_LEI MUNICIPAL.pdf",
+    "caminho": "C:\\Users\\compesa\\Desktop\\ppp_RAG\\data\\raw\\00.00 CONTRATO CT.PS.13.1.059-1\\00.12 ANEXO 11 DO CONTRATO - LEIS AUTORIZADAS E CONTRATOS DE PROGRAMA\\ABREU E LIMA\\ABREU E LIMA_LEI MUNICIPAL.pdf",
+    "metodo": "ocr",
+    "paginas": 5,
+    "chunks": 21,
+    "data_processo": "2025-10-22T11:20:01.884769"
+  },
+  "68ef4138998e7dc3dbf826822d9abac6": {
+    "nome": "ARAÇOIABA_ANEXO II - ESTRUTURA TARIFÁRIA.pdf",
+    "caminho": "C:\\Users\\compesa\\Desktop\\ppp_RAG\\data\\raw\\00.00 CONTRATO CT.PS.13.1.059-1\\00.12 ANEXO 11 DO CONTRATO - LEIS AUTORIZADAS E CONTRATOS DE PROGRAMA\\ARAÇOIABA\\ARAÇOIABA_ANEXO II - ESTRUTURA TARIFÁRIA.pdf",
+    "metodo": "ocr",
+    "paginas": 2,
+    "chunks": 7,
+    "data_processo": "2025-10-22T11:20:07.284759"
+  },
+  "2e54acb2a5d1d4d2fb7a292f98b6ad0e": {
+    "nome": "ARAÇOIABA_ANEXO III - PLANO DE METAS.pdf",
+    "caminho": "C:\\Users\\compesa\\Desktop\\ppp_RAG\\data\\raw\\00.00 CONTRATO CT.PS.13.1.059-1\\00.12 ANEXO 11 DO CONTRATO - LEIS AUTORIZADAS E CONTRATOS DE PROGRAMA\\ARAÇOIABA\\ARAÇOIABA_ANEXO III - PLANO DE METAS.pdf",
+    "metodo": "ocr",
+    "paginas": 3,
+    "chunks": 8,
+    "data_processo": "2025-10-22T11:20:12.304392"
+  },
+  "a6d52c983bf597639617ecaddeb01cc3": {
+    "nome": "ARAÇOIABA_ANEXO IV - PLANO MUNICIPAL DE SANEAMENTO BÁSICO.pdf",
+    "caminho": "C:\\Users\\compesa\\Desktop\\ppp_RAG\\data\\raw\\00.00 CONTRATO CT.PS.13.1.059-1\\00.12 ANEXO 11 DO CONTRATO - LEIS AUTORIZADAS E CONTRATOS DE PROGRAMA\\ARAÇOIABA\\ARAÇOIABA_ANEXO IV - PLANO MUNICIPAL DE SANEAMENTO BÁSICO.pdf",
+    "metodo": "ocr",
+    "paginas": 11,
+    "chunks": 40,
+    "data_processo": "2025-10-22T11:20:31.403757"
+  },
+  "0808bc4c39fa22fbc0b4181d6b7202d9": {
+    "nome": "ARAÇOIABA_ANEXO V - INVENTÁRIO DE BENS.pdf",
+    "caminho": "C:\\Users\\compesa\\Desktop\\ppp_RAG\\data\\raw\\00.00 CONTRATO CT.PS.13.1.059-1\\00.12 ANEXO 11 DO CONTRATO - LEIS AUTORIZADAS E CONTRATOS DE PROGRAMA\\ARAÇOIABA\\ARAÇOIABA_ANEXO V - INVENTÁRIO DE BENS.pdf",
+    "metodo": "ocr",
+    "paginas": 5,
+    "chunks": 6,
+    "data_processo": "2025-10-22T11:20:37.602628"
+  },
+  "d849c7012de7d57937e5ab97bd1d753a": {
+    "nome": "ARAÇOIABA_ANEXO VI - PLANO DE  INVESTIMENTOS.pdf",
+    "caminho": "C:\\Users\\compesa\\Desktop\\ppp_RAG\\data\\raw\\00.00 CONTRATO CT.PS.13.1.059-1\\00.12 ANEXO 11 DO CONTRATO - LEIS AUTORIZADAS E CONTRATOS DE PROGRAMA\\ARAÇOIABA\\ARAÇOIABA_ANEXO VI - PLANO DE  INVESTIMENTOS.pdf",
+    "metodo": "ocr",
+    "paginas": 5,
+    "chunks": 22,
+    "data_processo": "2025-10-22T11:20:47.424659"
+  },
+  "5f3519e3a4647c23c9bb6530b08faa08": {
+    "nome": "ARAÇOIABA_CONTRATO DE PROGRAMA CT.PR. 11.3.200 DE 21-JULHO-2011.pdf",
+    "caminho": "C:\\Users\\compesa\\Desktop\\ppp_RAG\\data\\raw\\00.00 CONTRATO CT.PS.13.1.059-1\\00.12 ANEXO 11 DO CONTRATO - LEIS AUTORIZADAS E CONTRATOS DE PROGRAMA\\ARAÇOIABA\\ARAÇOIABA_CONTRATO DE PROGRAMA CT.PR. 11.3.200 DE 21-JULHO-2011.pdf",
+    "metodo": "ocr",
+    "paginas": 22,
+    "chunks": 159,
+    "data_processo": "2025-10-22T11:21:47.273472"
+  },
+  "03201c70c5cbc15404e66fc8f429f0e5": {
+    "nome": "ARAÇOIABA_CONVÊNIO DE COOPERAÇÃO 11.3.199 DE 21-JULHO-2011+ PLANO DE TRABALHO.pdf",
+    "caminho": "C:\\Users\\compesa\\Desktop\\ppp_RAG\\data\\raw\\00.00 CONTRATO CT.PS.13.1.059-1\\00.12 ANEXO 11 DO CONTRATO - LEIS AUTORIZADAS E CONTRATOS DE PROGRAMA\\ARAÇOIABA\\ARAÇOIABA_CONVÊNIO DE COOPERAÇÃO 11.3.199 DE 21-JULHO-2011+ PLANO DE TRABALHO.pdf",
+    "metodo": "ocr",
+    "paginas": 13,
+    "chunks": 67,
+    "data_processo": "2025-10-22T11:22:21.282433"
+  },
+  "976dc5724b28eef442679fab3801e71e": {
+    "nome": "ARAÇOIABA_DECRETO ESTADUAL Nº 36.433-2011.pdf",
+    "caminho": "C:\\Users\\compesa\\Desktop\\ppp_RAG\\data\\raw\\00.00 CONTRATO CT.PS.13.1.059-1\\00.12 ANEXO 11 DO CONTRATO - LEIS AUTORIZADAS E CONTRATOS DE PROGRAMA\\ARAÇOIABA\\ARAÇOIABA_DECRETO ESTADUAL Nº 36.433-2011.pdf",
+    "metodo": "ocr",
+    "paginas": 2,
+    "chunks": 9,
+    "data_processo": "2025-10-22T11:22:25.542641"
+  },
+  "6eed9d15db06826d5e587442deeb9867": {
+    "nome": "ARAÇOIABA_LEI MUNICIPAL Nº 236 E Nº 237-2011.pdf",
+    "caminho": "C:\\Users\\compesa\\Desktop\\ppp_RAG\\data\\raw\\00.00 CONTRATO CT.PS.13.1.059-1\\00.12 ANEXO 11 DO CONTRATO - LEIS AUTORIZADAS E CONTRATOS DE PROGRAMA\\ARAÇOIABA\\ARAÇOIABA_LEI MUNICIPAL Nº 236 E Nº 237-2011.pdf",
+    "metodo": "ocr",
+    "paginas": 4,
+    "chunks": 17,
+    "data_processo": "2025-10-22T11:22:32.661872"
+  },
+  "ab7ef4b8ba53e6362baa01b960d4924a": {
+    "nome": "ABREU E LIMA_ANEXO I  - REGULAMENTO GERAL.pdf",
+    "caminho": "C:\\Users\\compesa\\Desktop\\ppp_RAG\\data\\raw\\00.00 CONTRATO CT.PS.13.1.059-1\\00.12 ANEXO 11 DO CONTRATO - LEIS AUTORIZADAS E CONTRATOS DE PROGRAMA\\ARQUIVOS COMPLEMENTARES\\ABREU E LIMA\\ABREU E LIMA_ANEXO I  - REGULAMENTO GERAL.pdf",
+    "metodo": "ocr",
+    "paginas": 16,
+    "chunks": 137,
+    "data_processo": "2025-10-22T11:23:20.074323"
+  },
+  "c9ebe2f8f40b2ee3e445449259f5d6aa": {
+    "nome": "ABREU E LIMA_CONVÊNIO DE COOPERAÇÃO CV.11.3.197 .pdf",
+    "caminho": "C:\\Users\\compesa\\Desktop\\ppp_RAG\\data\\raw\\00.00 CONTRATO CT.PS.13.1.059-1\\00.12 ANEXO 11 DO CONTRATO - LEIS AUTORIZADAS E CONTRATOS DE PROGRAMA\\ARQUIVOS COMPLEMENTARES\\ABREU E LIMA\\ABREU E LIMA_CONVÊNIO DE COOPERAÇÃO CV.11.3.197 .pdf",
+    "metodo": "ocr",
+    "paginas": 13,
+    "chunks": 66,
+    "data_processo": "2025-10-22T11:23:49.301201"
+  },
+  "2c611500c65e8f4b2f724f1f0de78fb5": {
+    "nome": "IGARASSU_CONVÊNIO DE COOPERAÇÃO CV.11.3.221.pdf",
+    "caminho": "C:\\Users\\compesa\\Desktop\\ppp_RAG\\data\\raw\\00.00 CONTRATO CT.PS.13.1.059-1\\00.12 ANEXO 11 DO CONTRATO - LEIS AUTORIZADAS E CONTRATOS DE PROGRAMA\\ARQUIVOS COMPLEMENTARES\\IGARASSU\\IGARASSU_CONVÊNIO DE COOPERAÇÃO CV.11.3.221.pdf",
+    "metodo": "ocr",
+    "paginas": 13,
+    "chunks": 66,
+    "data_processo": "2025-10-22T11:24:26.478399"
+  },
+  "7d215fbb4e2888b03f2f09175ed48166": {
+    "nome": "ILHA DE ITAMARACÁ_ANEXOI.PDF",
+    "caminho": "C:\\Users\\compesa\\Desktop\\ppp_RAG\\data\\raw\\00.00 CONTRATO CT.PS.13.1.059-1\\00.12 ANEXO 11 DO CONTRATO - LEIS AUTORIZADAS E CONTRATOS DE PROGRAMA\\ARQUIVOS COMPLEMENTARES\\ILHA DE ITAMARACÁ\\ILHA DE ITAMARACÁ_ANEXOI.PDF",
+    "metodo": "ocr",
+    "paginas": 18,
+    "chunks": 117,
+    "data_processo": "2025-10-22T11:25:06.452866"
+  },
+  "7beb10e94953038ab6a9c093fe874f78": {
+    "nome": "SÃO LOURENÇO DA MATA_CONVÊN~8.PDF",
+    "caminho": "C:\\Users\\compesa\\Desktop\\ppp_RAG\\data\\raw\\00.00 CONTRATO CT.PS.13.1.059-1\\00.12 ANEXO 11 DO CONTRATO - LEIS AUTORIZADAS E CONTRATOS DE PROGRAMA\\ARQUIVOS COMPLEMENTARES\\SÃO LOURENÇO DA MATA\\SÃO LOURENÇO DA MATA_CONVÊN~8.PDF",
+    "metodo": "ocr",
+    "paginas": 13,
+    "chunks": 68,
+    "data_processo": "2025-10-22T11:25:38.388602"
+  },
+  "c488788c40714035dec063237f3d0f00": {
+    "nome": "CABO DE STO AGOSTINHO_ANEXO II - ESTRUTURA TARIFÁRIA.pdf",
+    "caminho": "C:\\Users\\compesa\\Desktop\\ppp_RAG\\data\\raw\\00.00 CONTRATO CT.PS.13.1.059-1\\00.12 ANEXO 11 DO CONTRATO - LEIS AUTORIZADAS E CONTRATOS DE PROGRAMA\\CABO DE STO AGOSTINHO\\CABO DE STO AGOSTINHO_ANEXO II - ESTRUTURA TARIFÁRIA.pdf",
+    "metodo": "ocr",
+    "paginas": 2,
+    "chunks": 6,
+    "data_processo": "2025-10-22T11:25:43.454455"
+  },
+  "27b5795fcf80554ffa0a858606bb6f32": {
+    "nome": "CABO DE STO AGOSTINHO_ANEXO III - PLANO DE METAS.pdf",
+    "caminho": "C:\\Users\\compesa\\Desktop\\ppp_RAG\\data\\raw\\00.00 CONTRATO CT.PS.13.1.059-1\\00.12 ANEXO 11 DO CONTRATO - LEIS AUTORIZADAS E CONTRATOS DE PROGRAMA\\CABO DE STO AGOSTINHO\\CABO DE STO AGOSTINHO_ANEXO III - PLANO DE METAS.pdf",
+    "metodo": "ocr",
+    "paginas": 3,
+    "chunks": 10,
+    "data_processo": "2025-10-22T11:25:48.608201"
+  },
+  "7c98916a887c92cb9e6e91cc31f8e323": {
+    "nome": "CABO DE STO AGOSTINHO_ANEXO IV - PLANO MUNICIPAL DE SANEAMENTO  BÁSICO.pdf",
+    "caminho": "C:\\Users\\compesa\\Desktop\\ppp_RAG\\data\\raw\\00.00 CONTRATO CT.PS.13.1.059-1\\00.12 ANEXO 11 DO CONTRATO - LEIS AUTORIZADAS E CONTRATOS DE PROGRAMA\\CABO DE STO AGOSTINHO\\CABO DE STO AGOSTINHO_ANEXO IV - PLANO MUNICIPAL DE SANEAMENTO  BÁSICO.pdf",
+    "metodo": "ocr",
+    "paginas": 33,
+    "chunks": 192,
+    "data_processo": "2025-10-22T11:26:55.645043"
+  },
+  "35eed1fcaecd105af90becd7a095aac5": {
+    "nome": "CABO DE STO AGOSTINHO_ANEXO V - INVENTÁRIO DE BENS.pdf",
+    "caminho": "C:\\Users\\compesa\\Desktop\\ppp_RAG\\data\\raw\\00.00 CONTRATO CT.PS.13.1.059-1\\00.12 ANEXO 11 DO CONTRATO - LEIS AUTORIZADAS E CONTRATOS DE PROGRAMA\\CABO DE STO AGOSTINHO\\CABO DE STO AGOSTINHO_ANEXO V - INVENTÁRIO DE BENS.pdf",
+    "metodo": "ocr",
+    "paginas": 7,
+    "chunks": 20,
+    "data_processo": "2025-10-22T11:27:06.104142"
+  },
+  "118fa154f6b7a319dc0f67a987ea1cbc": {
+    "nome": "CABO DE STO AGOSTINHO_ANEXO VI - PLANO DE INVESTIMENTOS.pdf",
+    "caminho": "C:\\Users\\compesa\\Desktop\\ppp_RAG\\data\\raw\\00.00 CONTRATO CT.PS.13.1.059-1\\00.12 ANEXO 11 DO CONTRATO - LEIS AUTORIZADAS E CONTRATOS DE PROGRAMA\\CABO DE STO AGOSTINHO\\CABO DE STO AGOSTINHO_ANEXO VI - PLANO DE INVESTIMENTOS.pdf",
+    "metodo": "ocr",
+    "paginas": 7,
+    "chunks": 35,
+    "data_processo": "2025-10-22T11:27:19.712907"
+  },
+  "6b579ef6fbc252dde6f475168150ec9e": {
+    "nome": "CABO DE STO AGOSTINHO_CONTRATO DE PROGRAMA CT.PR.11.3.264 DE 05-SETEMBRO-2011.pdf",
+    "caminho": "C:\\Users\\compesa\\Desktop\\ppp_RAG\\data\\raw\\00.00 CONTRATO CT.PS.13.1.059-1\\00.12 ANEXO 11 DO CONTRATO - LEIS AUTORIZADAS E CONTRATOS DE PROGRAMA\\CABO DE STO AGOSTINHO\\CABO DE STO AGOSTINHO_CONTRATO DE PROGRAMA CT.PR.11.3.264 DE 05-SETEMBRO-2011.pdf",
+    "metodo": "ocr",
+    "paginas": 22,
+    "chunks": 156,
+    "data_processo": "2025-10-22T11:28:14.708164"
+  },
+  "5830ec9dcbeb7cd48470af1187e14ca9": {
+    "nome": "CABO DE STO AGOSTINHO_DECRETO ESTADUAL Nº 37.072-2011.pdf",
+    "caminho": "C:\\Users\\compesa\\Desktop\\ppp_RAG\\data\\raw\\00.00 CONTRATO CT.PS.13.1.059-1\\00.12 ANEXO 11 DO CONTRATO - LEIS AUTORIZADAS E CONTRATOS DE PROGRAMA\\CABO DE STO AGOSTINHO\\CABO DE STO AGOSTINHO_DECRETO ESTADUAL Nº 37.072-2011.pdf",
+    "metodo": "ocr",
+    "paginas": 2,
+    "chunks": 10,
+    "data_processo": "2025-10-22T11:28:18.482002"
+  },
+  "82b0a703f14099e206c459879f83fe79": {
+    "nome": "CABO DE STO AGOSTINHO_LEI MUNICIPAL Nº 2.807-2011.pdf",
+    "caminho": "C:\\Users\\compesa\\Desktop\\ppp_RAG\\data\\raw\\00.00 CONTRATO CT.PS.13.1.059-1\\00.12 ANEXO 11 DO CONTRATO - LEIS AUTORIZADAS E CONTRATOS DE PROGRAMA\\CABO DE STO AGOSTINHO\\CABO DE STO AGOSTINHO_LEI MUNICIPAL Nº 2.807-2011.pdf",
+    "metodo": "ocr",
+    "paginas": 3,
+    "chunks": 15,
+    "data_processo": "2025-10-22T11:28:23.996982"
+  },
+  "c71a76501d0874adf61d11d3351d4269": {
+    "nome": "CAMARAGIBE_ANEXO II - ESTRUTURA TARIFÁRIA.pdf",
+    "caminho": "C:\\Users\\compesa\\Desktop\\ppp_RAG\\data\\raw\\00.00 CONTRATO CT.PS.13.1.059-1\\00.12 ANEXO 11 DO CONTRATO - LEIS AUTORIZADAS E CONTRATOS DE PROGRAMA\\CAMARAGIBE\\CAMARAGIBE_ANEXO II - ESTRUTURA TARIFÁRIA.pdf",
+    "metodo": "ocr",
+    "paginas": 2,
+    "chunks": 6,
+    "data_processo": "2025-10-22T11:28:29.070196"
+  },
+  "b4934cf54fd05efb57205dc38b46ae87": {
+    "nome": "CAMARAGIBE_ANEXO III - PLANO DE METAS.pdf",
+    "caminho": "C:\\Users\\compesa\\Desktop\\ppp_RAG\\data\\raw\\00.00 CONTRATO CT.PS.13.1.059-1\\00.12 ANEXO 11 DO CONTRATO - LEIS AUTORIZADAS E CONTRATOS DE PROGRAMA\\CAMARAGIBE\\CAMARAGIBE_ANEXO III - PLANO DE METAS.pdf",
+    "metodo": "ocr",
+    "paginas": 3,
+    "chunks": 8,
+    "data_processo": "2025-10-22T11:28:34.168929"
+  },
+  "cb90d5026c8da72a68f879d11e8e8d31": {
+    "nome": "CAMARAGIBE_ANEXO IV - PLANO MUNICIPAL DE SANEAMENTO BÁSICO.pdf",
+    "caminho": "C:\\Users\\compesa\\Desktop\\ppp_RAG\\data\\raw\\00.00 CONTRATO CT.PS.13.1.059-1\\00.12 ANEXO 11 DO CONTRATO - LEIS AUTORIZADAS E CONTRATOS DE PROGRAMA\\CAMARAGIBE\\CAMARAGIBE_ANEXO IV - PLANO MUNICIPAL DE SANEAMENTO BÁSICO.pdf",
+    "metodo": "ocr",
+    "paginas": 31,
+    "chunks": 178,
+    "data_processo": "2025-10-22T11:29:35.238106"
+  },
+  "a1772f7a833680d1f731b3ed4ce71aac": {
+    "nome": "CAMARAGIBE_ANEXO V - INVENTÁRIO DE BENS.pdf",
+    "caminho": "C:\\Users\\compesa\\Desktop\\ppp_RAG\\data\\raw\\00.00 CONTRATO CT.PS.13.1.059-1\\00.12 ANEXO 11 DO CONTRATO - LEIS AUTORIZADAS E CONTRATOS DE PROGRAMA\\CAMARAGIBE\\CAMARAGIBE_ANEXO V - INVENTÁRIO DE BENS.pdf",
+    "metodo": "ocr",
+    "paginas": 3,
+    "chunks": 5,
+    "data_processo": "2025-10-22T11:29:40.307448"
+  },
+  "2bc581f645c540878ae2e915c55ef714": {
+    "nome": "CAMARAGIBE_ANEXO VI - PLANO DE INVESTIMENTOS.pdf",
+    "caminho": "C:\\Users\\compesa\\Desktop\\ppp_RAG\\data\\raw\\00.00 CONTRATO CT.PS.13.1.059-1\\00.12 ANEXO 11 DO CONTRATO - LEIS AUTORIZADAS E CONTRATOS DE PROGRAMA\\CAMARAGIBE\\CAMARAGIBE_ANEXO VI - PLANO DE INVESTIMENTOS.pdf",
+    "metodo": "ocr",
+    "paginas": 6,
+    "chunks": 29,
+    "data_processo": "2025-10-22T11:29:51.013135"
+  },
+  "ddc2084be8edf74f5abe61688938182a": {
+    "nome": "CAMARAGIBE_CONTRATO DE PROGRAMA CT.PR. 11.3.202 DE 21-JULHO-2011.pdf",
+    "caminho": "C:\\Users\\compesa\\Desktop\\ppp_RAG\\data\\raw\\00.00 CONTRATO CT.PS.13.1.059-1\\00.12 ANEXO 11 DO CONTRATO - LEIS AUTORIZADAS E CONTRATOS DE PROGRAMA\\CAMARAGIBE\\CAMARAGIBE_CONTRATO DE PROGRAMA CT.PR. 11.3.202 DE 21-JULHO-2011.pdf",
+    "metodo": "ocr",
+    "paginas": 22,
+    "chunks": 154,
+    "data_processo": "2025-10-22T11:30:45.940039"
+  },
+  "121c110bdf2a30f7aeea00755ba5e17c": {
+    "nome": "CAMARAGIBE_DECRETO ESTADUAL Nº 36.753-2011.pdf",
+    "caminho": "C:\\Users\\compesa\\Desktop\\ppp_RAG\\data\\raw\\00.00 CONTRATO CT.PS.13.1.059-1\\00.12 ANEXO 11 DO CONTRATO - LEIS AUTORIZADAS E CONTRATOS DE PROGRAMA\\CAMARAGIBE\\CAMARAGIBE_DECRETO ESTADUAL Nº 36.753-2011.pdf",
+    "metodo": "ocr",
+    "paginas": 2,
+    "chunks": 10,
+    "data_processo": "2025-10-22T11:30:51.008752"
+  },
+  "ed085b99348dd1d3c0ee3f5a19a1ce7d": {
+    "nome": "CAMARAGIBE_LEI MUNICIPAL Nº 474-2011.pdf",
+    "caminho": "C:\\Users\\compesa\\Desktop\\ppp_RAG\\data\\raw\\00.00 CONTRATO CT.PS.13.1.059-1\\00.12 ANEXO 11 DO CONTRATO - LEIS AUTORIZADAS E CONTRATOS DE PROGRAMA\\CAMARAGIBE\\CAMARAGIBE_LEI MUNICIPAL Nº 474-2011.pdf",
+    "metodo": "ocr",
+    "paginas": 3,
+    "chunks": 8,
+    "data_processo": "2025-10-22T11:30:56.021547"
+  },
+  "6e119133e18e587a6afa58d74bb1a198": {
+    "nome": "GOIANA_ANEXO I - REGULAMENTO GERAL DO FORNECIMENTO DE ÁGUA E COLETA DE ESGOTO.pdf",
+    "caminho": "C:\\Users\\compesa\\Desktop\\ppp_RAG\\data\\raw\\00.00 CONTRATO CT.PS.13.1.059-1\\00.12 ANEXO 11 DO CONTRATO - LEIS AUTORIZADAS E CONTRATOS DE PROGRAMA\\GOIANA\\GOIANA_ANEXO I - REGULAMENTO GERAL DO FORNECIMENTO DE ÁGUA E COLETA DE ESGOTO.pdf",
+    "metodo": "ocr",
+    "paginas": 18,
+    "chunks": 118,
+    "data_processo": "2025-10-22T11:31:36.652438"
+  },
+  "baad2b9ce8ecc6559052b461c8e62c6d": {
+    "nome": "GOIANA_ANEXO II - ESTRUTURA TARIFÁRIA.pdf",
+    "caminho": "C:\\Users\\compesa\\Desktop\\ppp_RAG\\data\\raw\\00.00 CONTRATO CT.PS.13.1.059-1\\00.12 ANEXO 11 DO CONTRATO - LEIS AUTORIZADAS E CONTRATOS DE PROGRAMA\\GOIANA\\GOIANA_ANEXO II - ESTRUTURA TARIFÁRIA.pdf",
+    "metodo": "ocr",
+    "paginas": 1,
+    "chunks": 5,
+    "data_processo": "2025-10-22T11:31:39.402214"
+  },
+  "74e88f451c51cfcfa8fdb4814c5e92e1": {
+    "nome": "GOIANA_ANEXO III - PLANO DE METAS.pdf",
+    "caminho": "C:\\Users\\compesa\\Desktop\\ppp_RAG\\data\\raw\\00.00 CONTRATO CT.PS.13.1.059-1\\00.12 ANEXO 11 DO CONTRATO - LEIS AUTORIZADAS E CONTRATOS DE PROGRAMA\\GOIANA\\GOIANA_ANEXO III - PLANO DE METAS.pdf",
+    "metodo": "ocr",
+    "paginas": 3,
+    "chunks": 8,
+    "data_processo": "2025-10-22T11:31:44.475254"
+  },
+  "233727a65c9177f3af8ab65be871bad2": {
+    "nome": "GOIANA_ANEXO IV - PLANO MUNICIPAL DE SANEAMENTO.pdf",
+    "caminho": "C:\\Users\\compesa\\Desktop\\ppp_RAG\\data\\raw\\00.00 CONTRATO CT.PS.13.1.059-1\\00.12 ANEXO 11 DO CONTRATO - LEIS AUTORIZADAS E CONTRATOS DE PROGRAMA\\GOIANA\\GOIANA_ANEXO IV - PLANO MUNICIPAL DE SANEAMENTO.pdf",
+    "metodo": "ocr",
+    "paginas": 10,
+    "chunks": 45,
+    "data_processo": "2025-10-22T11:32:06.502971"
+  },
+  "0961de6d75e16803f08d302c83bb433a": {
+    "nome": "GOIANA_ANEXO V -  INVENTÁRIO DE BENS.pdf",
+    "caminho": "C:\\Users\\compesa\\Desktop\\ppp_RAG\\data\\raw\\00.00 CONTRATO CT.PS.13.1.059-1\\00.12 ANEXO 11 DO CONTRATO - LEIS AUTORIZADAS E CONTRATOS DE PROGRAMA\\GOIANA\\GOIANA_ANEXO V -  INVENTÁRIO DE BENS.pdf",
+    "metodo": "ocr",
+    "paginas": 27,
+    "chunks": 49,
+    "data_processo": "2025-10-22T11:32:46.389740"
+  },
+  "ee03fabff794d9bea5098892b865e867": {
+    "nome": "GOIANA_ANEXO VI - PLANO DE INVESTIMENTOS.pdf",
+    "caminho": "C:\\Users\\compesa\\Desktop\\ppp_RAG\\data\\raw\\00.00 CONTRATO CT.PS.13.1.059-1\\00.12 ANEXO 11 DO CONTRATO - LEIS AUTORIZADAS E CONTRATOS DE PROGRAMA\\GOIANA\\GOIANA_ANEXO VI - PLANO DE INVESTIMENTOS.pdf",
+    "metodo": "ocr",
+    "paginas": 5,
+    "chunks": 13,
+    "data_processo": "2025-10-22T11:32:54.587575"
+  },
+  "7d3b40a72379b62c735e6a7d0c7e736b": {
+    "nome": "GOIANA_CONTRATO DE PROGRAMA CT.PR.11.3.069 DE 03-MARÇO-2011.pdf",
+    "caminho": "C:\\Users\\compesa\\Desktop\\ppp_RAG\\data\\raw\\00.00 CONTRATO CT.PS.13.1.059-1\\00.12 ANEXO 11 DO CONTRATO - LEIS AUTORIZADAS E CONTRATOS DE PROGRAMA\\GOIANA\\GOIANA_CONTRATO DE PROGRAMA CT.PR.11.3.069 DE 03-MARÇO-2011.pdf",
+    "metodo": "ocr",
+    "paginas": 22,
+    "chunks": 157,
+    "data_processo": "2025-10-22T11:33:52.832930"
+  },
+  "b5a2451237cdf12372c8b55aaaf9e8fb": {
+    "nome": "GOIANA_CONVÊNIO  DE COOPERAÇÃO CV.11.3.068 DE 03-MARÇO-2011.pdf",
+    "caminho": "C:\\Users\\compesa\\Desktop\\ppp_RAG\\data\\raw\\00.00 CONTRATO CT.PS.13.1.059-1\\00.12 ANEXO 11 DO CONTRATO - LEIS AUTORIZADAS E CONTRATOS DE PROGRAMA\\GOIANA\\GOIANA_CONVÊNIO  DE COOPERAÇÃO CV.11.3.068 DE 03-MARÇO-2011.pdf",
+    "metodo": "ocr",
+    "paginas": 9,
+    "chunks": 51,
+    "data_processo": "2025-10-22T11:34:14.425396"
+  },
+  "ee2053dfa56f583f426913506e7d31e6": {
+    "nome": "GOIANA_DECRETO ESTADUAL Nº 36.242-2011.pdf",
+    "caminho": "C:\\Users\\compesa\\Desktop\\ppp_RAG\\data\\raw\\00.00 CONTRATO CT.PS.13.1.059-1\\00.12 ANEXO 11 DO CONTRATO - LEIS AUTORIZADAS E CONTRATOS DE PROGRAMA\\GOIANA\\GOIANA_DECRETO ESTADUAL Nº 36.242-2011.pdf",
+    "metodo": "ocr",
+    "paginas": 1,
+    "chunks": 8,
+    "data_processo": "2025-10-22T11:34:17.622175"
+  },
+  "fe795379518e3e9716104b807889fe97": {
+    "nome": "GOIANA_LEI MUNICIPAL Nº 2149-2010.pdf",
+    "caminho": "C:\\Users\\compesa\\Desktop\\ppp_RAG\\data\\raw\\00.00 CONTRATO CT.PS.13.1.059-1\\00.12 ANEXO 11 DO CONTRATO - LEIS AUTORIZADAS E CONTRATOS DE PROGRAMA\\GOIANA\\GOIANA_LEI MUNICIPAL Nº 2149-2010.pdf",
+    "metodo": "ocr",
+    "paginas": 2,
+    "chunks": 12,
+    "data_processo": "2025-10-22T11:34:22.194189"
+  },
+  "cbf877e86672b13d59b58c943bef4c89": {
+    "nome": "IGARASSU_ANEXO II - ESTRUTURA TARIFÁRIA.pdf",
+    "caminho": "C:\\Users\\compesa\\Desktop\\ppp_RAG\\data\\raw\\00.00 CONTRATO CT.PS.13.1.059-1\\00.12 ANEXO 11 DO CONTRATO - LEIS AUTORIZADAS E CONTRATOS DE PROGRAMA\\IGARASSU\\IGARASSU_ANEXO II - ESTRUTURA TARIFÁRIA.pdf",
+    "metodo": "ocr",
+    "paginas": 2,
+    "chunks": 6,
+    "data_processo": "2025-10-22T11:34:27.163923"
+  },
+  "0ac39b4ca53dbd1f7042c11c51bb32e3": {
+    "nome": "IGARASSU_ANEXO III - PLANO DE METAS.pdf",
+    "caminho": "C:\\Users\\compesa\\Desktop\\ppp_RAG\\data\\raw\\00.00 CONTRATO CT.PS.13.1.059-1\\00.12 ANEXO 11 DO CONTRATO - LEIS AUTORIZADAS E CONTRATOS DE PROGRAMA\\IGARASSU\\IGARASSU_ANEXO III - PLANO DE METAS.pdf",
+    "metodo": "ocr",
+    "paginas": 3,
+    "chunks": 9,
+    "data_processo": "2025-10-22T11:34:32.517588"
+  },
+  "31b2df60c0d8fd495db666fa91326298": {
+    "nome": "IGARASSU_ANEXO IV - PLANO MUNICIPAL DE SANEAMENTO BÁSICO.pdf",
+    "caminho": "C:\\Users\\compesa\\Desktop\\ppp_RAG\\data\\raw\\00.00 CONTRATO CT.PS.13.1.059-1\\00.12 ANEXO 11 DO CONTRATO - LEIS AUTORIZADAS E CONTRATOS DE PROGRAMA\\IGARASSU\\IGARASSU_ANEXO IV - PLANO MUNICIPAL DE SANEAMENTO BÁSICO.pdf",
+    "metodo": "ocr",
+    "paginas": 30,
+    "chunks": 175,
+    "data_processo": "2025-10-22T11:35:35.283762"
+  },
+  "b345efc93b94efd68019ffa0ad91727b": {
+    "nome": "IGARASSU_ANEXO V - INVENTÁRIO DE BENS.pdf",
+    "caminho": "C:\\Users\\compesa\\Desktop\\ppp_RAG\\data\\raw\\00.00 CONTRATO CT.PS.13.1.059-1\\00.12 ANEXO 11 DO CONTRATO - LEIS AUTORIZADAS E CONTRATOS DE PROGRAMA\\IGARASSU\\IGARASSU_ANEXO V - INVENTÁRIO DE BENS.pdf",
+    "metodo": "ocr",
+    "paginas": 19,
+    "chunks": 66,
+    "data_processo": "2025-10-22T11:36:06.783949"
+  },
+  "ad03b7f7f06b5daa8d74d32d42515cc7": {
+    "nome": "IGARASSU_ANEXO VI - PLANO DE INVESTIMENTOS.pdf",
+    "caminho": "C:\\Users\\compesa\\Desktop\\ppp_RAG\\data\\raw\\00.00 CONTRATO CT.PS.13.1.059-1\\00.12 ANEXO 11 DO CONTRATO - LEIS AUTORIZADAS E CONTRATOS DE PROGRAMA\\IGARASSU\\IGARASSU_ANEXO VI - PLANO DE INVESTIMENTOS.pdf",
+    "metodo": "ocr",
+    "paginas": 6,
+    "chunks": 28,
+    "data_processo": "2025-10-22T11:36:18.002431"
+  },
+  "28b694966b0ca8533ad957a5a9d81b48": {
+    "nome": "IGARASSU_CONTRATO DE PROGRAMA CT.PR.11.3.222 DE 02-AGOSTO-2011.pdf",
+    "caminho": "C:\\Users\\compesa\\Desktop\\ppp_RAG\\data\\raw\\00.00 CONTRATO CT.PS.13.1.059-1\\00.12 ANEXO 11 DO CONTRATO - LEIS AUTORIZADAS E CONTRATOS DE PROGRAMA\\IGARASSU\\IGARASSU_CONTRATO DE PROGRAMA CT.PR.11.3.222 DE 02-AGOSTO-2011.pdf",
+    "metodo": "ocr",
+    "paginas": 22,
+    "chunks": 157,
+    "data_processo": "2025-10-22T11:37:14.496248"
+  },
+  "bbaf157b78887487a56cb6266bd4c261": {
+    "nome": "IGARASSU_DECRETO ESTADUAL Nº 36.868-2011.pdf",
+    "caminho": "C:\\Users\\compesa\\Desktop\\ppp_RAG\\data\\raw\\00.00 CONTRATO CT.PS.13.1.059-1\\00.12 ANEXO 11 DO CONTRATO - LEIS AUTORIZADAS E CONTRATOS DE PROGRAMA\\IGARASSU\\IGARASSU_DECRETO ESTADUAL Nº 36.868-2011.pdf",
+    "metodo": "ocr",
+    "paginas": 2,
+    "chunks": 10,
+    "data_processo": "2025-10-22T11:37:19.434945"
+  },
+  "223aea95f799ac24f793a4f781e3b9cb": {
+    "nome": "IGARASSU_LEI MUNICIPAL Nº 2.762-2011.pdf",
+    "caminho": "C:\\Users\\compesa\\Desktop\\ppp_RAG\\data\\raw\\00.00 CONTRATO CT.PS.13.1.059-1\\00.12 ANEXO 11 DO CONTRATO - LEIS AUTORIZADAS E CONTRATOS DE PROGRAMA\\IGARASSU\\IGARASSU_LEI MUNICIPAL Nº 2.762-2011.pdf",
+    "metodo": "ocr",
+    "paginas": 3,
+    "chunks": 11,
+    "data_processo": "2025-10-22T11:37:24.955693"
+  },
+  "b3873254f37053502bfe042b636d0401": {
+    "nome": "ILHA DE ITAMARACÁ_ANEXO II - ESTRUTURA TARIFÁRIA.pdf",
+    "caminho": "C:\\Users\\compesa\\Desktop\\ppp_RAG\\data\\raw\\00.00 CONTRATO CT.PS.13.1.059-1\\00.12 ANEXO 11 DO CONTRATO - LEIS AUTORIZADAS E CONTRATOS DE PROGRAMA\\ILHA DE ITAMARACÁ\\ILHA DE ITAMARACÁ_ANEXO II - ESTRUTURA TARIFÁRIA.pdf",
+    "metodo": "ocr",
+    "paginas": 1,
+    "chunks": 5,
+    "data_processo": "2025-10-22T11:37:27.591291"
+  },
+  "ed4a5dd6c1c9338c6fc6e0192e75d4a4": {
+    "nome": "ILHA DE ITAMARACÁ_ANEXO III - PLANO DE METAS.pdf",
+    "caminho": "C:\\Users\\compesa\\Desktop\\ppp_RAG\\data\\raw\\00.00 CONTRATO CT.PS.13.1.059-1\\00.12 ANEXO 11 DO CONTRATO - LEIS AUTORIZADAS E CONTRATOS DE PROGRAMA\\ILHA DE ITAMARACÁ\\ILHA DE ITAMARACÁ_ANEXO III - PLANO DE METAS.pdf",
+    "metodo": "ocr",
+    "paginas": 3,
+    "chunks": 10,
+    "data_processo": "2025-10-22T11:37:33.191495"
+  },
+  "0ce935fc758822905d0bf8e885500ea4": {
+    "nome": "ILHA DE ITAMARACÁ_ANEXO IV - PLANO MUNICIPAL DE SANEAMENTO  BÁSICO.pdf",
+    "caminho": "C:\\Users\\compesa\\Desktop\\ppp_RAG\\data\\raw\\00.00 CONTRATO CT.PS.13.1.059-1\\00.12 ANEXO 11 DO CONTRATO - LEIS AUTORIZADAS E CONTRATOS DE PROGRAMA\\ILHA DE ITAMARACÁ\\ILHA DE ITAMARACÁ_ANEXO IV - PLANO MUNICIPAL DE SANEAMENTO  BÁSICO.pdf",
+    "metodo": "ocr",
+    "paginas": 17,
+    "chunks": 72,
+    "data_processo": "2025-10-22T11:38:06.071722"
+  },
+  "21fc5c86295a847ecb64a92e4c023059": {
+    "nome": "ILHA DE ITAMARACÁ_ANEXO V - INVENTÁRIO DE BENS.pdf",
+    "caminho": "C:\\Users\\compesa\\Desktop\\ppp_RAG\\data\\raw\\00.00 CONTRATO CT.PS.13.1.059-1\\00.12 ANEXO 11 DO CONTRATO - LEIS AUTORIZADAS E CONTRATOS DE PROGRAMA\\ILHA DE ITAMARACÁ\\ILHA DE ITAMARACÁ_ANEXO V - INVENTÁRIO DE BENS.pdf",
+    "metodo": "ocr",
+    "paginas": 18,
+    "chunks": 43,
+    "data_processo": "2025-10-22T11:38:35.880460"
+  },
+  "d70de14689e996ff6a5f5a4fe1458c45": {
+    "nome": "ILHA DE ITAMARACÁ_ANEXO VI-  PLANO DE INVESTIMENTOS.pdf",
+    "caminho": "C:\\Users\\compesa\\Desktop\\ppp_RAG\\data\\raw\\00.00 CONTRATO CT.PS.13.1.059-1\\00.12 ANEXO 11 DO CONTRATO - LEIS AUTORIZADAS E CONTRATOS DE PROGRAMA\\ILHA DE ITAMARACÁ\\ILHA DE ITAMARACÁ_ANEXO VI-  PLANO DE INVESTIMENTOS.pdf",
+    "metodo": "ocr",
+    "paginas": 7,
+    "chunks": 26,
+    "data_processo": "2025-10-22T11:38:49.571844"
+  },
+  "f822c549de63cb50e81b8bd0021ba1be": {
+    "nome": "ILHA DE ITAMARACÁ_CONTRATO DE PROGRAMA CT.PR.11.3.067 DE 03-MARÇO-2011.pdf",
+    "caminho": "C:\\Users\\compesa\\Desktop\\ppp_RAG\\data\\raw\\00.00 CONTRATO CT.PS.13.1.059-1\\00.12 ANEXO 11 DO CONTRATO - LEIS AUTORIZADAS E CONTRATOS DE PROGRAMA\\ILHA DE ITAMARACÁ\\ILHA DE ITAMARACÁ_CONTRATO DE PROGRAMA CT.PR.11.3.067 DE 03-MARÇO-2011.pdf",
+    "metodo": "ocr",
+    "paginas": 22,
+    "chunks": 163,
+    "data_processo": "2025-10-22T11:39:47.154561"
+  },
+  "2707e02cdd12911767baeff18ea603fa": {
+    "nome": "ILHA DE ITAMARACÁ_CONVÊNIO DE COOPERAÇÃO CV.11.3.066 DE 03-MARÇO-2011.pdf",
+    "caminho": "C:\\Users\\compesa\\Desktop\\ppp_RAG\\data\\raw\\00.00 CONTRATO CT.PS.13.1.059-1\\00.12 ANEXO 11 DO CONTRATO - LEIS AUTORIZADAS E CONTRATOS DE PROGRAMA\\ILHA DE ITAMARACÁ\\ILHA DE ITAMARACÁ_CONVÊNIO DE COOPERAÇÃO CV.11.3.066 DE 03-MARÇO-2011.pdf",
+    "metodo": "ocr",
+    "paginas": 9,
+    "chunks": 55,
+    "data_processo": "2025-10-22T11:40:09.530608"
+  },
+  "afbdb2073e5c8e4f754ed68816c56a2a": {
+    "nome": "ILHA DE ITAMARACÁ_DECRETO ESTADUAL Nº 36.238-2011.pdf",
+    "caminho": "C:\\Users\\compesa\\Desktop\\ppp_RAG\\data\\raw\\00.00 CONTRATO CT.PS.13.1.059-1\\00.12 ANEXO 11 DO CONTRATO - LEIS AUTORIZADAS E CONTRATOS DE PROGRAMA\\ILHA DE ITAMARACÁ\\ILHA DE ITAMARACÁ_DECRETO ESTADUAL Nº 36.238-2011.pdf",
+    "metodo": "ocr",
+    "paginas": 1,
+    "chunks": 8,
+    "data_processo": "2025-10-22T11:40:14.203587"
+  },
+  "1666b184d001075fb5b2eb48f7300a99": {
+    "nome": "ILHA DE ITAMARACÁ_LEI MUNICIPAL Nº 1161-2010.pdf",
+    "caminho": "C:\\Users\\compesa\\Desktop\\ppp_RAG\\data\\raw\\00.00 CONTRATO CT.PS.13.1.059-1\\00.12 ANEXO 11 DO CONTRATO - LEIS AUTORIZADAS E CONTRATOS DE PROGRAMA\\ILHA DE ITAMARACÁ\\ILHA DE ITAMARACÁ_LEI MUNICIPAL Nº 1161-2010.pdf",
+    "metodo": "ocr",
+    "paginas": 2,
+    "chunks": 10,
+    "data_processo": "2025-10-22T11:40:18.910463"
+  },
+  "29bb24ae294af5779fe5d1a321daf43e": {
+    "nome": "IPOJUCA_ANEXO I - REGULAMENTO G.pdf",
+    "caminho": "C:\\Users\\compesa\\Desktop\\ppp_RAG\\data\\raw\\00.00 CONTRATO CT.PS.13.1.059-1\\00.12 ANEXO 11 DO CONTRATO - LEIS AUTORIZADAS E CONTRATOS DE PROGRAMA\\IPOJUCA\\IPOJUCA_ANEXO I - REGULAMENTO G.pdf",
+    "metodo": "ocr",
+    "paginas": 17,
+    "chunks": 137,
+    "data_processo": "2025-10-22T11:41:11.059842"
+  },
+  "f412eb6215a99cc46f7136e59cb2b1d8": {
+    "nome": "IPOJUCA_ANEXO II - ESTRUTURA TARIFÁRIA.pdf",
+    "caminho": "C:\\Users\\compesa\\Desktop\\ppp_RAG\\data\\raw\\00.00 CONTRATO CT.PS.13.1.059-1\\00.12 ANEXO 11 DO CONTRATO - LEIS AUTORIZADAS E CONTRATOS DE PROGRAMA\\IPOJUCA\\IPOJUCA_ANEXO II - ESTRUTURA TARIFÁRIA.pdf",
+    "metodo": "ocr",
+    "paginas": 2,
+    "chunks": 5,
+    "data_processo": "2025-10-22T11:41:14.609222"
+  },
+  "a1c7b01cb95951dcfa617d99ff8f75fb": {
+    "nome": "IPOJUCA_ANEXO III - PLANO DE METAS.pdf",
+    "caminho": "C:\\Users\\compesa\\Desktop\\ppp_RAG\\data\\raw\\00.00 CONTRATO CT.PS.13.1.059-1\\00.12 ANEXO 11 DO CONTRATO - LEIS AUTORIZADAS E CONTRATOS DE PROGRAMA\\IPOJUCA\\IPOJUCA_ANEXO III - PLANO DE METAS.pdf",
+    "metodo": "ocr",
+    "paginas": 3,
+    "chunks": 8,
+    "data_processo": "2025-10-22T11:41:19.625278"
+  },
+  "fa8dc90c0167a044a819571739d6a257": {
+    "nome": "IPOJUCA_ANEXO IV - PLANO MUNICIPAL DE SANEAMENTO BÁSICO.pdf",
+    "caminho": "C:\\Users\\compesa\\Desktop\\ppp_RAG\\data\\raw\\00.00 CONTRATO CT.PS.13.1.059-1\\00.12 ANEXO 11 DO CONTRATO - LEIS AUTORIZADAS E CONTRATOS DE PROGRAMA\\IPOJUCA\\IPOJUCA_ANEXO IV - PLANO MUNICIPAL DE SANEAMENTO BÁSICO.pdf",
+    "metodo": "ocr",
+    "paginas": 31,
+    "chunks": 183,
+    "data_processo": "2025-10-22T11:42:27.128937"
+  },
+  "3cfd088bddb913d30c2f65def93a24df": {
+    "nome": "IPOJUCA_ANEXO V - INVENTÁRIO DE BENS.pdf",
+    "caminho": "C:\\Users\\compesa\\Desktop\\ppp_RAG\\data\\raw\\00.00 CONTRATO CT.PS.13.1.059-1\\00.12 ANEXO 11 DO CONTRATO - LEIS AUTORIZADAS E CONTRATOS DE PROGRAMA\\IPOJUCA\\IPOJUCA_ANEXO V - INVENTÁRIO DE BENS.pdf",
+    "metodo": "ocr",
+    "paginas": 3,
+    "chunks": 9,
+    "data_processo": "2025-10-22T11:42:33.097469"
+  },
+  "d9df57f5c871c5f2f649e5dfa1bbb638": {
+    "nome": "IPOJUCA_ANEXO VI - PLANO DE INVESTIMENTOS.pdf",
+    "caminho": "C:\\Users\\compesa\\Desktop\\ppp_RAG\\data\\raw\\00.00 CONTRATO CT.PS.13.1.059-1\\00.12 ANEXO 11 DO CONTRATO - LEIS AUTORIZADAS E CONTRATOS DE PROGRAMA\\IPOJUCA\\IPOJUCA_ANEXO VI - PLANO DE INVESTIMENTOS.pdf",
+    "metodo": "ocr",
+    "paginas": 6,
+    "chunks": 28,
+    "data_processo": "2025-10-22T11:42:45.365011"
+  },
+  "10f0bb61acd268cb932293a9e8538a09": {
+    "nome": "IPOJUCA_CONTRATO DE PROGRAMA CT.PR.11.3.204.pdf",
+    "caminho": "C:\\Users\\compesa\\Desktop\\ppp_RAG\\data\\raw\\00.00 CONTRATO CT.PS.13.1.059-1\\00.12 ANEXO 11 DO CONTRATO - LEIS AUTORIZADAS E CONTRATOS DE PROGRAMA\\IPOJUCA\\IPOJUCA_CONTRATO DE PROGRAMA CT.PR.11.3.204.pdf",
+    "metodo": "ocr",
+    "paginas": 22,
+    "chunks": 154,
+    "data_processo": "2025-10-22T11:43:43.192216"
+  },
+  "5ee9117aa2b63492e54dcb3e9c06e752": {
+    "nome": "IPOJUCA_CONVÊNIO DE COOPERAÇÃO CV.11.3.203.pdf",
+    "caminho": "C:\\Users\\compesa\\Desktop\\ppp_RAG\\data\\raw\\00.00 CONTRATO CT.PS.13.1.059-1\\00.12 ANEXO 11 DO CONTRATO - LEIS AUTORIZADAS E CONTRATOS DE PROGRAMA\\IPOJUCA\\IPOJUCA_CONVÊNIO DE COOPERAÇÃO CV.11.3.203.pdf",
+    "metodo": "ocr",
+    "paginas": 13,
+    "chunks": 64,
+    "data_processo": "2025-10-22T11:44:11.671295"
+  },
+  "1002a2c94105ac841376fb9df1868193": {
+    "nome": "IPOJUCA_DECRETO ESTADUAL Nº 36.434-2011.pdf",
+    "caminho": "C:\\Users\\compesa\\Desktop\\ppp_RAG\\data\\raw\\00.00 CONTRATO CT.PS.13.1.059-1\\00.12 ANEXO 11 DO CONTRATO - LEIS AUTORIZADAS E CONTRATOS DE PROGRAMA\\IPOJUCA\\IPOJUCA_DECRETO ESTADUAL Nº 36.434-2011.pdf",
+    "metodo": "ocr",
+    "paginas": 2,
+    "chunks": 9,
+    "data_processo": "2025-10-22T11:44:15.596123"
+  },
+  "5ca1fbfda82a6100884fcfe108b74392": {
+    "nome": "IPOJUCA_LEI MUNICIPAL Nº 1.588-2011.pdf",
+    "caminho": "C:\\Users\\compesa\\Desktop\\ppp_RAG\\data\\raw\\00.00 CONTRATO CT.PS.13.1.059-1\\00.12 ANEXO 11 DO CONTRATO - LEIS AUTORIZADAS E CONTRATOS DE PROGRAMA\\IPOJUCA\\IPOJUCA_LEI MUNICIPAL Nº 1.588-2011.pdf",
+    "metodo": "ocr",
+    "paginas": 3,
+    "chunks": 10,
+    "data_processo": "2025-10-22T11:44:20.632900"
+  },
+  "14eec3e34af6cad0aee363608df9968b": {
+    "nome": "ITAPISSUMA_ANEXO II - ESSTRUTURA TARIFÁRIA.pdf",
+    "caminho": "C:\\Users\\compesa\\Desktop\\ppp_RAG\\data\\raw\\00.00 CONTRATO CT.PS.13.1.059-1\\00.12 ANEXO 11 DO CONTRATO - LEIS AUTORIZADAS E CONTRATOS DE PROGRAMA\\ITAPISSUMA\\ITAPISSUMA_ANEXO II - ESSTRUTURA TARIFÁRIA.pdf",
+    "metodo": "ocr",
+    "paginas": 2,
+    "chunks": 6,
+    "data_processo": "2025-10-22T11:44:24.357886"
+  },
+  "926573fe3035cbcdfebdba3590b668dd": {
+    "nome": "ITAPISSUMA_ANEXO III - PLANO DE METAS.pdf",
+    "caminho": "C:\\Users\\compesa\\Desktop\\ppp_RAG\\data\\raw\\00.00 CONTRATO CT.PS.13.1.059-1\\00.12 ANEXO 11 DO CONTRATO - LEIS AUTORIZADAS E CONTRATOS DE PROGRAMA\\ITAPISSUMA\\ITAPISSUMA_ANEXO III - PLANO DE METAS.pdf",
+    "metodo": "ocr",
+    "paginas": 3,
+    "chunks": 9,
+    "data_processo": "2025-10-22T11:44:29.578121"
+  },
+  "11b9c7def05b402c876787f559133f73": {
+    "nome": "ITAPISSUMA_ANEXO IV - PLANO MUNICIPAL DE SANEAMENTO BÁSICO.pdf",
+    "caminho": "C:\\Users\\compesa\\Desktop\\ppp_RAG\\data\\raw\\00.00 CONTRATO CT.PS.13.1.059-1\\00.12 ANEXO 11 DO CONTRATO - LEIS AUTORIZADAS E CONTRATOS DE PROGRAMA\\ITAPISSUMA\\ITAPISSUMA_ANEXO IV - PLANO MUNICIPAL DE SANEAMENTO BÁSICO.pdf",
+    "metodo": "ocr",
+    "paginas": 28,
+    "chunks": 159,
+    "data_processo": "2025-10-22T11:45:27.924690"
+  },
+  "5b273e19af6130f186343b58e2a9e60e": {
+    "nome": "ITAPISSUMA_ANEXO V - INVENTÁRIO DE BENS.pdf",
+    "caminho": "C:\\Users\\compesa\\Desktop\\ppp_RAG\\data\\raw\\00.00 CONTRATO CT.PS.13.1.059-1\\00.12 ANEXO 11 DO CONTRATO - LEIS AUTORIZADAS E CONTRATOS DE PROGRAMA\\ITAPISSUMA\\ITAPISSUMA_ANEXO V - INVENTÁRIO DE BENS.pdf",
+    "metodo": "ocr",
+    "paginas": 10,
+    "chunks": 21,
+    "data_processo": "2025-10-22T11:45:42.649958"
+  },
+  "964b1fad07af2d7c1834534f97495f69": {
+    "nome": "ITAPISSUMA_ANEXO VI - PLANO DE INVESTIMENTOS.pdf",
+    "caminho": "C:\\Users\\compesa\\Desktop\\ppp_RAG\\data\\raw\\00.00 CONTRATO CT.PS.13.1.059-1\\00.12 ANEXO 11 DO CONTRATO - LEIS AUTORIZADAS E CONTRATOS DE PROGRAMA\\ITAPISSUMA\\ITAPISSUMA_ANEXO VI - PLANO DE INVESTIMENTOS.pdf",
+    "metodo": "ocr",
+    "paginas": 5,
+    "chunks": 21,
+    "data_processo": "2025-10-22T11:45:52.045846"
+  },
+  "45b8f06dba3010e3a08ba5f2bfd13a72": {
+    "nome": "ITAPISSUMA_CONTRATO DE PROGRAMA CT.PR.11.3.206 DE 21-JULHO-2011.pdf",
+    "caminho": "C:\\Users\\compesa\\Desktop\\ppp_RAG\\data\\raw\\00.00 CONTRATO CT.PS.13.1.059-1\\00.12 ANEXO 11 DO CONTRATO - LEIS AUTORIZADAS E CONTRATOS DE PROGRAMA\\ITAPISSUMA\\ITAPISSUMA_CONTRATO DE PROGRAMA CT.PR.11.3.206 DE 21-JULHO-2011.pdf",
+    "metodo": "ocr",
+    "paginas": 22,
+    "chunks": 161,
+    "data_processo": "2025-10-22T11:46:49.790719"
+  },
+  "2820918a9c9a20c4ec79158413ea603b": {
+    "nome": "ITAPISSUMA_DECRETO ESTADUAL Nº 36.239-2011.pdf",
+    "caminho": "C:\\Users\\compesa\\Desktop\\ppp_RAG\\data\\raw\\00.00 CONTRATO CT.PS.13.1.059-1\\00.12 ANEXO 11 DO CONTRATO - LEIS AUTORIZADAS E CONTRATOS DE PROGRAMA\\ITAPISSUMA\\ITAPISSUMA_DECRETO ESTADUAL Nº 36.239-2011.pdf",
+    "metodo": "ocr",
+    "paginas": 2,
+    "chunks": 9,
+    "data_processo": "2025-10-22T11:46:53.731653"
+  },
+  "3e41765683def9e8872124b95de4ce58": {
+    "nome": "ITAPISSUMA_LEI MUNICIPAL Nº 777 E Nº 778-2010.pdf",
+    "caminho": "C:\\Users\\compesa\\Desktop\\ppp_RAG\\data\\raw\\00.00 CONTRATO CT.PS.13.1.059-1\\00.12 ANEXO 11 DO CONTRATO - LEIS AUTORIZADAS E CONTRATOS DE PROGRAMA\\ITAPISSUMA\\ITAPISSUMA_LEI MUNICIPAL Nº 777 E Nº 778-2010.pdf",
+    "metodo": "ocr",
+    "paginas": 5,
+    "chunks": 21,
+    "data_processo": "2025-10-22T11:47:03.408277"
+  },
+  "c704ffd37e8d75d61da8d77c9cf4c456": {
+    "nome": "JABOATÃO_ct cc 7 de 29-dez-1977-JABOATAO.pdf",
+    "caminho": "C:\\Users\\compesa\\Desktop\\ppp_RAG\\data\\raw\\00.00 CONTRATO CT.PS.13.1.059-1\\00.12 ANEXO 11 DO CONTRATO - LEIS AUTORIZADAS E CONTRATOS DE PROGRAMA\\JABOATÃO\\JABOATÃO_ct cc 7 de 29-dez-1977-JABOATAO.pdf",
+    "metodo": "ocr",
+    "paginas": 7,
+    "chunks": 31,
+    "data_processo": "2025-10-22T11:47:19.285403"
+  },
+  "ce432f3919e42a631d7369a80104a75a": {
+    "nome": "JABOATÃO_lei_15_08091977_JABOATAO.pdf",
+    "caminho": "C:\\Users\\compesa\\Desktop\\ppp_RAG\\data\\raw\\00.00 CONTRATO CT.PS.13.1.059-1\\00.12 ANEXO 11 DO CONTRATO - LEIS AUTORIZADAS E CONTRATOS DE PROGRAMA\\JABOATÃO\\JABOATÃO_lei_15_08091977_JABOATAO.pdf",
+    "metodo": "ocr",
+    "paginas": 2,
+    "chunks": 9,
+    "data_processo": "2025-10-22T11:47:24.285286"
+  },
+  "89903857b8554079c3c8e3c9cae7eea5": {
+    "nome": "MORENO_ANEXO I - REGULAMENTO GERAL DO FORNECIMENTO DE ÁGUA E COLETA DE ESGOTOS.pdf",
+    "caminho": "C:\\Users\\compesa\\Desktop\\ppp_RAG\\data\\raw\\00.00 CONTRATO CT.PS.13.1.059-1\\00.12 ANEXO 11 DO CONTRATO - LEIS AUTORIZADAS E CONTRATOS DE PROGRAMA\\MORENO\\MORENO_ANEXO I - REGULAMENTO GERAL DO FORNECIMENTO DE ÁGUA E COLETA DE ESGOTOS.pdf",
+    "metodo": "ocr",
+    "paginas": 17,
+    "chunks": 140,
+    "data_processo": "2025-10-22T11:48:13.133619"
+  },
+  "43739d7015134f6b383c6918d721238d": {
+    "nome": "MORENO_ANEXO II - ESTRUTURA TARIFÁRIA.pdf",
+    "caminho": "C:\\Users\\compesa\\Desktop\\ppp_RAG\\data\\raw\\00.00 CONTRATO CT.PS.13.1.059-1\\00.12 ANEXO 11 DO CONTRATO - LEIS AUTORIZADAS E CONTRATOS DE PROGRAMA\\MORENO\\MORENO_ANEXO II - ESTRUTURA TARIFÁRIA.pdf",
+    "metodo": "ocr",
+    "paginas": 2,
+    "chunks": 6,
+    "data_processo": "2025-10-22T11:48:16.655394"
+  },
+  "1958eed36450dfcc4661964f4ed81cab": {
+    "nome": "MORENO_ANEXO III - PLANO DE METAS.pdf",
+    "caminho": "C:\\Users\\compesa\\Desktop\\ppp_RAG\\data\\raw\\00.00 CONTRATO CT.PS.13.1.059-1\\00.12 ANEXO 11 DO CONTRATO - LEIS AUTORIZADAS E CONTRATOS DE PROGRAMA\\MORENO\\MORENO_ANEXO III - PLANO DE METAS.pdf",
+    "metodo": "ocr",
+    "paginas": 3,
+    "chunks": 9,
+    "data_processo": "2025-10-22T11:48:21.785400"
+  },
+  "ed0b7fc0152e8e3201ef91d6fce14550": {
+    "nome": "MORENO_ANEXO IV - PLANO MUNICIPAL DE SANEAMENTO BÁSICO.pdf",
+    "caminho": "C:\\Users\\compesa\\Desktop\\ppp_RAG\\data\\raw\\00.00 CONTRATO CT.PS.13.1.059-1\\00.12 ANEXO 11 DO CONTRATO - LEIS AUTORIZADAS E CONTRATOS DE PROGRAMA\\MORENO\\MORENO_ANEXO IV - PLANO MUNICIPAL DE SANEAMENTO BÁSICO.pdf",
+    "metodo": "ocr",
+    "paginas": 30,
+    "chunks": 172,
+    "data_processo": "2025-10-22T11:49:24.188224"
+  },
+  "43970b9108641f0caa65dfe0ab7e2a54": {
+    "nome": "MORENO_ANEXO V - INVENTÁRIO DE BENS.pdf",
+    "caminho": "C:\\Users\\compesa\\Desktop\\ppp_RAG\\data\\raw\\00.00 CONTRATO CT.PS.13.1.059-1\\00.12 ANEXO 11 DO CONTRATO - LEIS AUTORIZADAS E CONTRATOS DE PROGRAMA\\MORENO\\MORENO_ANEXO V - INVENTÁRIO DE BENS.pdf",
+    "metodo": "ocr",
+    "paginas": 4,
+    "chunks": 6,
+    "data_processo": "2025-10-22T11:49:29.500247"
+  },
+  "df8cc1131ab8201d0ab7ff6ac0f1a81c": {
+    "nome": "MORENO_ANEXO VI - PLANO DE INVESTIMENTOS.pdf",
+    "caminho": "C:\\Users\\compesa\\Desktop\\ppp_RAG\\data\\raw\\00.00 CONTRATO CT.PS.13.1.059-1\\00.12 ANEXO 11 DO CONTRATO - LEIS AUTORIZADAS E CONTRATOS DE PROGRAMA\\MORENO\\MORENO_ANEXO VI - PLANO DE INVESTIMENTOS.pdf",
+    "metodo": "ocr",
+    "paginas": 6,
+    "chunks": 24,
+    "data_processo": "2025-10-22T11:49:40.729264"
+  },
+  "6e2748abf3edc84bc98984cb74b59e04": {
+    "nome": "MORENO_CONTRATO DE  PROGRAMA CT.PR. 11.3.228 DE 03-AGOSTO-2011.pdf",
+    "caminho": "C:\\Users\\compesa\\Desktop\\ppp_RAG\\data\\raw\\00.00 CONTRATO CT.PS.13.1.059-1\\00.12 ANEXO 11 DO CONTRATO - LEIS AUTORIZADAS E CONTRATOS DE PROGRAMA\\MORENO\\MORENO_CONTRATO DE  PROGRAMA CT.PR. 11.3.228 DE 03-AGOSTO-2011.pdf",
+    "metodo": "ocr",
+    "paginas": 22,
+    "chunks": 159,
+    "data_processo": "2025-10-22T11:50:36.983355"
+  },
+  "956f0066256ebc73ed61cb9bf1a18045": {
+    "nome": "MORENO_CONVÊNIO DE COOPERAÇÃO CV 11.3.227 DE 03-AGOSTO-2011 + PLANO DE TRABALHO.pdf",
+    "caminho": "C:\\Users\\compesa\\Desktop\\ppp_RAG\\data\\raw\\00.00 CONTRATO CT.PS.13.1.059-1\\00.12 ANEXO 11 DO CONTRATO - LEIS AUTORIZADAS E CONTRATOS DE PROGRAMA\\MORENO\\MORENO_CONVÊNIO DE COOPERAÇÃO CV 11.3.227 DE 03-AGOSTO-2011 + PLANO DE TRABALHO.pdf",
+    "metodo": "ocr",
+    "paginas": 13,
+    "chunks": 64,
+    "data_processo": "2025-10-22T11:51:04.611553"
+  },
+  "86eda4942faad251e1d23879f8f57517": {
+    "nome": "MORENO_DECRETO ESTADUAL Nº 36.899-2011.pdf",
+    "caminho": "C:\\Users\\compesa\\Desktop\\ppp_RAG\\data\\raw\\00.00 CONTRATO CT.PS.13.1.059-1\\00.12 ANEXO 11 DO CONTRATO - LEIS AUTORIZADAS E CONTRATOS DE PROGRAMA\\MORENO\\MORENO_DECRETO ESTADUAL Nº 36.899-2011.pdf",
+    "metodo": "ocr",
+    "paginas": 2,
+    "chunks": 10,
+    "data_processo": "2025-10-22T11:51:08.704777"
+  },
+  "1a2881374be9380fbfa8c2afd7de1ff1": {
+    "nome": "MORENO_LEI MUNICIPAL Nº 432-2011.pdf",
+    "caminho": "C:\\Users\\compesa\\Desktop\\ppp_RAG\\data\\raw\\00.00 CONTRATO CT.PS.13.1.059-1\\00.12 ANEXO 11 DO CONTRATO - LEIS AUTORIZADAS E CONTRATOS DE PROGRAMA\\MORENO\\MORENO_LEI MUNICIPAL Nº 432-2011.pdf",
+    "metodo": "ocr",
+    "paginas": 3,
+    "chunks": 9,
+    "data_processo": "2025-10-22T11:51:13.852756"
+  },
+  "e4104491946ad92985470fdce1d44a04": {
+    "nome": "OLINDA_ct cc 59 de 27-mar-1973-OLINDA.pdf",
+    "caminho": "C:\\Users\\compesa\\Desktop\\ppp_RAG\\data\\raw\\00.00 CONTRATO CT.PS.13.1.059-1\\00.12 ANEXO 11 DO CONTRATO - LEIS AUTORIZADAS E CONTRATOS DE PROGRAMA\\OLINDA\\OLINDA_ct cc 59 de 27-mar-1973-OLINDA.pdf",
+    "metodo": "ocr",
+    "paginas": 8,
+    "chunks": 36,
+    "data_processo": "2025-10-22T11:51:29.328753"
+  },
+  "08842ea9636e5fdf93898a7102827309": {
+    "nome": "OLINDA_lei_3829_07021973_OLINDA.pdf",
+    "caminho": "C:\\Users\\compesa\\Desktop\\ppp_RAG\\data\\raw\\00.00 CONTRATO CT.PS.13.1.059-1\\00.12 ANEXO 11 DO CONTRATO - LEIS AUTORIZADAS E CONTRATOS DE PROGRAMA\\OLINDA\\OLINDA_lei_3829_07021973_OLINDA.pdf",
+    "metodo": "ocr",
+    "paginas": 3,
+    "chunks": 9,
+    "data_processo": "2025-10-22T11:51:34.914635"
+  },
+  "d24483aaf1675f34d3fda38d405aefdb": {
+    "nome": "PAULISTA_ct cc 230 de 21-jan-1977-PAULISTA.pdf",
+    "caminho": "C:\\Users\\compesa\\Desktop\\ppp_RAG\\data\\raw\\00.00 CONTRATO CT.PS.13.1.059-1\\00.12 ANEXO 11 DO CONTRATO - LEIS AUTORIZADAS E CONTRATOS DE PROGRAMA\\PAULISTA\\PAULISTA_ct cc 230 de 21-jan-1977-PAULISTA.pdf",
+    "metodo": "ocr",
+    "paginas": 7,
+    "chunks": 30,
+    "data_processo": "2025-10-22T11:51:48.402460"
+  },
+  "b26b5580cd4534d974193928eb9039a6": {
+    "nome": "PAULISTA_lei_1285_28071972_PAULISTA.pdf",
+    "caminho": "C:\\Users\\compesa\\Desktop\\ppp_RAG\\data\\raw\\00.00 CONTRATO CT.PS.13.1.059-1\\00.12 ANEXO 11 DO CONTRATO - LEIS AUTORIZADAS E CONTRATOS DE PROGRAMA\\PAULISTA\\PAULISTA_lei_1285_28071972_PAULISTA.pdf",
+    "metodo": "ocr",
+    "paginas": 2,
+    "chunks": 5,
+    "data_processo": "2025-10-22T11:51:52.572946"
+  },
+  "44108bfcecb88ac3b1d3da378d485817": {
+    "nome": "RECIFE_1º TERMO ADITIVO AO CONTRATO DE PROGRAMA DE RECIFE - FEVEREIRO - 2012.pdf",
+    "caminho": "C:\\Users\\compesa\\Desktop\\ppp_RAG\\data\\raw\\00.00 CONTRATO CT.PS.13.1.059-1\\00.12 ANEXO 11 DO CONTRATO - LEIS AUTORIZADAS E CONTRATOS DE PROGRAMA\\RECIFE\\RECIFE_1º TERMO ADITIVO AO CONTRATO DE PROGRAMA DE RECIFE - FEVEREIRO - 2012.pdf",
+    "metodo": "ocr",
+    "paginas": 4,
+    "chunks": 19,
+    "data_processo": "2025-10-22T11:52:00.796557"
+  },
+  "c3920cfd29a962e10ce79862be442576": {
+    "nome": "SÃO LOURENÇO DA MATA_ANEXO II - ESTRUTURA TARIFÁRIA.pdf",
+    "caminho": "C:\\Users\\compesa\\Desktop\\ppp_RAG\\data\\raw\\00.00 CONTRATO CT.PS.13.1.059-1\\00.12 ANEXO 11 DO CONTRATO - LEIS AUTORIZADAS E CONTRATOS DE PROGRAMA\\SÃO LOURENÇO DA MATA\\SÃO LOURENÇO DA MATA_ANEXO II - ESTRUTURA TARIFÁRIA.pdf",
+    "metodo": "ocr",
+    "paginas": 2,
+    "chunks": 5,
+    "data_processo": "2025-10-22T11:52:04.138523"
+  },
+  "6a1ca276d6810da009f90e08b59b7432": {
+    "nome": "SÃO LOURENÇO DA MATA_ANEXO III - PLANO DE METAS.pdf",
+    "caminho": "C:\\Users\\compesa\\Desktop\\ppp_RAG\\data\\raw\\00.00 CONTRATO CT.PS.13.1.059-1\\00.12 ANEXO 11 DO CONTRATO - LEIS AUTORIZADAS E CONTRATOS DE PROGRAMA\\SÃO LOURENÇO DA MATA\\SÃO LOURENÇO DA MATA_ANEXO III - PLANO DE METAS.pdf",
+    "metodo": "ocr",
+    "paginas": 3,
+    "chunks": 10,
+    "data_processo": "2025-10-22T11:52:09.290500"
+  },
+  "76db7aa13c2f723c9cff5fd139709a13": {
+    "nome": "SÃO LOURENÇO DA MATA_ANEXO IV - PLANO MUNICIPAL DE SANEAMENTO BÁSICO.pdf",
+    "caminho": "C:\\Users\\compesa\\Desktop\\ppp_RAG\\data\\raw\\00.00 CONTRATO CT.PS.13.1.059-1\\00.12 ANEXO 11 DO CONTRATO - LEIS AUTORIZADAS E CONTRATOS DE PROGRAMA\\SÃO LOURENÇO DA MATA\\SÃO LOURENÇO DA MATA_ANEXO IV - PLANO MUNICIPAL DE SANEAMENTO BÁSICO.pdf",
+    "metodo": "ocr",
+    "paginas": 12,
+    "chunks": 56,
+    "data_processo": "2025-10-22T11:52:32.357540"
+  },
+  "586680f7ac3ac377cad2e547c70aed90": {
+    "nome": "SÃO LOURENÇO DA MATA_ANEXO V - INVENTÁRIO DE BENS.pdf",
+    "caminho": "C:\\Users\\compesa\\Desktop\\ppp_RAG\\data\\raw\\00.00 CONTRATO CT.PS.13.1.059-1\\00.12 ANEXO 11 DO CONTRATO - LEIS AUTORIZADAS E CONTRATOS DE PROGRAMA\\SÃO LOURENÇO DA MATA\\SÃO LOURENÇO DA MATA_ANEXO V - INVENTÁRIO DE BENS.pdf",
+    "metodo": "ocr",
+    "paginas": 3,
+    "chunks": 5,
+    "data_processo": "2025-10-22T11:52:37.567207"
+  },
+  "72c11c4ad201de4f773138a95788f753": {
+    "nome": "SÃO LOURENÇO DA MATA_ANEXO VI - PLANO DE INVESTIMENTOS.pdf",
+    "caminho": "C:\\Users\\compesa\\Desktop\\ppp_RAG\\data\\raw\\00.00 CONTRATO CT.PS.13.1.059-1\\00.12 ANEXO 11 DO CONTRATO - LEIS AUTORIZADAS E CONTRATOS DE PROGRAMA\\SÃO LOURENÇO DA MATA\\SÃO LOURENÇO DA MATA_ANEXO VI - PLANO DE INVESTIMENTOS.pdf",
+    "metodo": "ocr",
+    "paginas": 7,
+    "chunks": 33,
+    "data_processo": "2025-10-22T11:52:50.678820"
+  },
+  "058d2e8181049d4ed906b70bd92db9c4": {
+    "nome": "SÃO LOURENÇO DA MATA_CONTRATO DE PROGRAMA CT.PR.11.3.210 DE 21-JULHO-2011.pdf",
+    "caminho": "C:\\Users\\compesa\\Desktop\\ppp_RAG\\data\\raw\\00.00 CONTRATO CT.PS.13.1.059-1\\00.12 ANEXO 11 DO CONTRATO - LEIS AUTORIZADAS E CONTRATOS DE PROGRAMA\\SÃO LOURENÇO DA MATA\\SÃO LOURENÇO DA MATA_CONTRATO DE PROGRAMA CT.PR.11.3.210 DE 21-JULHO-2011.pdf",
+    "metodo": "ocr",
+    "paginas": 22,
+    "chunks": 165,
+    "data_processo": "2025-10-22T11:53:48.095091"
+  },
+  "81e21af0ecacc5a08c5de51aa899a58b": {
+    "nome": "SÃO LOURENÇO DA MATA_DECRETO ESTADUAL Nº 36.537-2011.pdf",
+    "caminho": "C:\\Users\\compesa\\Desktop\\ppp_RAG\\data\\raw\\00.00 CONTRATO CT.PS.13.1.059-1\\00.12 ANEXO 11 DO CONTRATO - LEIS AUTORIZADAS E CONTRATOS DE PROGRAMA\\SÃO LOURENÇO DA MATA\\SÃO LOURENÇO DA MATA_DECRETO ESTADUAL Nº 36.537-2011.pdf",
+    "metodo": "ocr",
+    "paginas": 2,
+    "chunks": 10,
+    "data_processo": "2025-10-22T11:53:52.121858"
+  },
+  "b1c0191b3bbdf0fa16ef53dc4cc550c7": {
+    "nome": "SÃO LOURENÇO DA MATA_LEI MUNICIPAL Nº 2.329  E Nº 2.330-2010.pdf",
+    "caminho": "C:\\Users\\compesa\\Desktop\\ppp_RAG\\data\\raw\\00.00 CONTRATO CT.PS.13.1.059-1\\00.12 ANEXO 11 DO CONTRATO - LEIS AUTORIZADAS E CONTRATOS DE PROGRAMA\\SÃO LOURENÇO DA MATA\\SÃO LOURENÇO DA MATA_LEI MUNICIPAL Nº 2.329  E Nº 2.330-2010.pdf",
+    "metodo": "ocr",
+    "paginas": 5,
+    "chunks": 18,
+    "data_processo": "2025-10-22T11:54:00.470885"
+  },
+  "46fd733a2f91d5a3c747e9a1035b5b85": {
+    "nome": "ANEXOS_14.01 - ANEXO I DO ADITIVO - Anexo c.pdf",
+    "caminho": "C:\\Users\\compesa\\Desktop\\ppp_RAG\\data\\raw\\1º TERMO ADITIVO\\ANEXOS\\ANEXOS_14.01 - ANEXO I DO ADITIVO - Anexo c.pdf",
+    "metodo": "extração_direta",
+    "paginas": 30,
+    "chunks": 520,
+    "data_processo": "2025-10-22T11:54:21.880744"
+  },
+  "b950646e909bc4ba394456c9e6048ffb": {
+    "nome": "ANEXOS_14.02 - ANEXO II DO ADITIVO- Anexo D - Alterações Proposta Econômica.pdf",
+    "caminho": "C:\\Users\\compesa\\Desktop\\ppp_RAG\\data\\raw\\1º TERMO ADITIVO\\ANEXOS\\ANEXOS_14.02 - ANEXO II DO ADITIVO- Anexo D - Alterações Proposta Econômica.pdf",
+    "metodo": "extração_direta",
+    "paginas": 41,
+    "chunks": 234,
+    "data_processo": "2025-10-22T11:54:34.836512"
+  },
+  "6823edcedeac7021cbc0538aba27de21": {
+    "nome": "ANEXOS_14.03 - ANEXO III DO ADITIVO- Anexo E - Compromisso de Capitalização.pdf",
+    "caminho": "C:\\Users\\compesa\\Desktop\\ppp_RAG\\data\\raw\\1º TERMO ADITIVO\\ANEXOS\\ANEXOS_14.03 - ANEXO III DO ADITIVO- Anexo E - Compromisso de Capitalização.pdf",
+    "metodo": "extração_direta",
+    "paginas": 3,
+    "chunks": 7,
+    "data_processo": "2025-10-22T11:54:35.609437"
+  },
+  "f6d7bc44bf8c8243c59d464a3381ec85": {
+    "nome": "ANEXOS_14.04 -Docs. Assinatura do Contrato - Documentos - Foz do Atlantico.pdf",
+    "caminho": "C:\\Users\\compesa\\Desktop\\ppp_RAG\\data\\raw\\1º TERMO ADITIVO\\ANEXOS\\ANEXOS_14.04 -Docs. Assinatura do Contrato - Documentos - Foz do Atlantico.pdf",
+    "metodo": "ocr",
+    "paginas": 25,
+    "chunks": 165,
+    "data_processo": "2025-10-22T11:55:31.549286"
+  },
+  "72e0c08adcac20dedb9ebfadc0b1746a": {
+    "nome": "ANEXOS_14.05 - ANEXO IV DO ADITIVO - Anexo B.pdf",
+    "caminho": "C:\\Users\\compesa\\Desktop\\ppp_RAG\\data\\raw\\1º TERMO ADITIVO\\ANEXOS\\ANEXOS_14.05 - ANEXO IV DO ADITIVO - Anexo B.pdf",
+    "metodo": "extração_direta",
+    "paginas": 4,
+    "chunks": 14,
+    "data_processo": "2025-10-22T11:55:32.465609"
+  },
+  "9539c5f3ecd738e9931a1d8c47742150": {
+    "nome": "2º TERMO ADITIVO_CT PS 13.1.059-2 - QID.pdf",
+    "caminho": "C:\\Users\\compesa\\Desktop\\ppp_RAG\\data\\raw\\2º TERMO ADITIVO\\2º TERMO ADITIVO_CT PS 13.1.059-2 - QID.pdf",
+    "metodo": "ocr",
+    "paginas": 49,
+    "chunks": 260,
+    "data_processo": "2025-10-22T11:57:16.391041"
+  },
+  "75d85f95126702c351902a4dd131fe18": {
+    "nome": "3º TERMO ADITIVO_ANEXO A - INVESTIMENTOS GOVERNAMENTAIS.pdf",
+    "caminho": "C:\\Users\\compesa\\Desktop\\ppp_RAG\\data\\raw\\3º TERMO ADITIVO\\3º TERMO ADITIVO_ANEXO A - INVESTIMENTOS GOVERNAMENTAIS.pdf",
+    "metodo": "ocr",
+    "paginas": 5,
+    "chunks": 14,
+    "data_processo": "2025-10-22T11:57:24.235669"
+  },
+  "1ede5454740e0fba7195a9be3a97c758": {
+    "nome": "3º TERMO ADITIVO_ANEXO B - DOCUMENTOS DA PROPOSTA TÉCNICA.pdf",
+    "caminho": "C:\\Users\\compesa\\Desktop\\ppp_RAG\\data\\raw\\3º TERMO ADITIVO\\3º TERMO ADITIVO_ANEXO B - DOCUMENTOS DA PROPOSTA TÉCNICA.pdf",
+    "metodo": "ocr",
+    "paginas": 36,
+    "chunks": 65,
+    "data_processo": "2025-10-22T11:58:08.907633"
+  },
+  "83dbc9ad8a031d02947977c137ad2f9a": {
+    "nome": "3º TERMO ADITIVO_ANEXO C - DOCUMENTOS DA PROPOSTA ECONÔMICA.pdf",
+    "caminho": "C:\\Users\\compesa\\Desktop\\ppp_RAG\\data\\raw\\3º TERMO ADITIVO\\3º TERMO ADITIVO_ANEXO C - DOCUMENTOS DA PROPOSTA ECONÔMICA.pdf",
+    "metodo": "ocr",
+    "paginas": 445,
+    "chunks": 2274,
+    "data_processo": "2025-10-22T12:16:29.647324"
+  },
+  "8a3f613ebb23028368d11437db381990": {
+    "nome": "3º TERMO ADITIVO_ANEXO D - COMPROMISSO DE CAPITALIZAÇÃO.pdf",
+    "caminho": "C:\\Users\\compesa\\Desktop\\ppp_RAG\\data\\raw\\3º TERMO ADITIVO\\3º TERMO ADITIVO_ANEXO D - COMPROMISSO DE CAPITALIZAÇÃO.pdf",
+    "metodo": "ocr",
+    "paginas": 28,
+    "chunks": 77,
+    "data_processo": "2025-10-22T12:17:14.660420"
+  },
+  "f11aba9c9201eaa35d38a7cfacdfc26c": {
+    "nome": "3º TERMO ADITIVO_CT PS 13.1.059-3 - PAULISTA.pdf",
+    "caminho": "C:\\Users\\compesa\\Desktop\\ppp_RAG\\data\\raw\\3º TERMO ADITIVO\\3º TERMO ADITIVO_CT PS 13.1.059-3 - PAULISTA.pdf",
+    "metodo": "ocr",
+    "paginas": 6,
+    "chunks": 84,
+    "data_processo": "2025-10-22T12:17:37.441429"
+  },
+  "4ac48512f407853a8ad52593f3165a84": {
+    "nome": "4º TERMO ADITIVO_CT PS 13.1.059-4 - RAZÃO SOCIAL (OA).pdf",
+    "caminho": "C:\\Users\\compesa\\Desktop\\ppp_RAG\\data\\raw\\4º TERMO ADITIVO\\4º TERMO ADITIVO_CT PS 13.1.059-4 - RAZÃO SOCIAL (OA).pdf",
+    "metodo": "ocr",
+    "paginas": 2,
+    "chunks": 13,
+    "data_processo": "2025-10-22T12:17:42.743455"
+  },
+  "525cda859132a8694a07cef1ac45a8ca": {
+    "nome": "5º Aditivo-BRK_5º ADITIVO AO CONTRATO CT PS 13.1.059.pdf",
+    "caminho": "C:\\Users\\compesa\\Desktop\\ppp_RAG\\data\\raw\\5º Aditivo-BRK\\5º Aditivo-BRK_5º ADITIVO AO CONTRATO CT PS 13.1.059.pdf",
+    "metodo": "ocr",
+    "paginas": 53,
+    "chunks": 372,
+    "data_processo": "2025-10-22T12:19:51.567714"
+  },
+  "6556a658e609762a7e5d06fec150cc64": {
+    "nome": "5º Aditivo-BRK_ANEXO 1- QUADRO DE INDICADORES DE DESEMPENHO- QID.pdf",
+    "caminho": "C:\\Users\\compesa\\Desktop\\ppp_RAG\\data\\raw\\5º Aditivo-BRK\\5º Aditivo-BRK_ANEXO 1- QUADRO DE INDICADORES DE DESEMPENHO- QID.pdf",
+    "metodo": "ocr",
+    "paginas": 63,
+    "chunks": 353,
+    "data_processo": "2025-10-22T12:22:07.717249"
+  },
+  "39575cb982027f71c5077415574812f5": {
+    "nome": "5º Aditivo-BRK_ANEXO 10 - PROJETO EXECUTIVO DA OBRA DE FRAGOSO, DETALHAMENTO DE ETAPAS DA OBRA DE FRAGOSO E ORÇAMENTO DA OBRA DE FRAGOSO.pdf",
+    "caminho": "C:\\Users\\compesa\\Desktop\\ppp_RAG\\data\\raw\\5º Aditivo-BRK\\5º Aditivo-BRK_ANEXO 10 - PROJETO EXECUTIVO DA OBRA DE FRAGOSO, DETALHAMENTO DE ETAPAS DA OBRA DE FRAGOSO E ORÇAMENTO DA OBRA DE FRAGOSO.pdf",
+    "metodo": "ocr",
+    "paginas": 43,
+    "chunks": 261,
+    "data_processo": "2025-10-22T12:24:07.890679"
+  },
+  "cd2ca541ea6a589a638153f3857c52b8": {
+    "nome": "5º Aditivo-BRK_ANEXO 11 - CRONOGRAMA DETALHADO PARA ADEQUAÇÃO DAS UNIDADES OPERACIONAIS À LEGISLAÇÃO AMBIENTAL VIGENTE (PRIMEIRA ETAPA).pdf",
+    "caminho": "C:\\Users\\compesa\\Desktop\\ppp_RAG\\data\\raw\\5º Aditivo-BRK\\5º Aditivo-BRK_ANEXO 11 - CRONOGRAMA DETALHADO PARA ADEQUAÇÃO DAS UNIDADES OPERACIONAIS À LEGISLAÇÃO AMBIENTAL VIGENTE (PRIMEIRA ETAPA).pdf",
+    "metodo": "ocr",
+    "paginas": 8,
+    "chunks": 30,
+    "data_processo": "2025-10-22T12:24:22.734114"
+  },
+  "7a23c504304f6c86e8e962e7339908f9": {
+    "nome": "5º Aditivo-BRK_ANEXO 12- TERMO DE REFERÊNCIA DOS SERVIÇOS ASSOCIADOS.pdf",
+    "caminho": "C:\\Users\\compesa\\Desktop\\ppp_RAG\\data\\raw\\5º Aditivo-BRK\\5º Aditivo-BRK_ANEXO 12- TERMO DE REFERÊNCIA DOS SERVIÇOS ASSOCIADOS.pdf",
+    "metodo": "ocr",
+    "paginas": 2,
+    "chunks": 2,
+    "data_processo": "2025-10-22T12:24:25.488561"
+  },
+  "9db7d712642e6e2eaff79fc8a788bf9c": {
+    "nome": "5º Aditivo-BRK_ANEXO 2- INVESTIMENTOS GOVERNAMENTAIS E INVESTIMENTOS DA CONCESSIONÁRIA.pdf",
+    "caminho": "C:\\Users\\compesa\\Desktop\\ppp_RAG\\data\\raw\\5º Aditivo-BRK\\5º Aditivo-BRK_ANEXO 2- INVESTIMENTOS GOVERNAMENTAIS E INVESTIMENTOS DA CONCESSIONÁRIA.pdf",
+    "metodo": "ocr",
+    "paginas": 4,
+    "chunks": 8,
+    "data_processo": "2025-10-22T12:24:31.811455"
+  },
+  "3fc15cfa295f896fd47e7fe32f847d16": {
+    "nome": "5º Aditivo-BRK_ANEXO 3- CRONOGRAMA DE INVESTIMENTOS GOVERNAMENTAIS E DA CONCESSIONÁRIA.pdf",
+    "caminho": "C:\\Users\\compesa\\Desktop\\ppp_RAG\\data\\raw\\5º Aditivo-BRK\\5º Aditivo-BRK_ANEXO 3- CRONOGRAMA DE INVESTIMENTOS GOVERNAMENTAIS E DA CONCESSIONÁRIA.pdf",
+    "metodo": "ocr",
+    "paginas": 4,
+    "chunks": 16,
+    "data_processo": "2025-10-22T12:24:41.158901"
+  },
+  "09c9c5a37611232ea43d9560c21c1d68": {
+    "nome": "5º Aditivo-BRK_ANEXO 4- METODOLOGIA DE EXECUÇÃO.pdf",
+    "caminho": "C:\\Users\\compesa\\Desktop\\ppp_RAG\\data\\raw\\5º Aditivo-BRK\\5º Aditivo-BRK_ANEXO 4- METODOLOGIA DE EXECUÇÃO.pdf",
+    "metodo": "ocr",
+    "paginas": 2,
+    "chunks": 2,
+    "data_processo": "2025-10-22T12:24:43.858691"
+  },
+  "b2c71c635f21d90f97becbe3d9d8180e": {
+    "nome": "5º Aditivo-BRK_ANEXO 5- PROJEÇÕES FINANCEIRAS.pdf",
+    "caminho": "C:\\Users\\compesa\\Desktop\\ppp_RAG\\data\\raw\\5º Aditivo-BRK\\5º Aditivo-BRK_ANEXO 5- PROJEÇÕES FINANCEIRAS.pdf",
+    "metodo": "ocr",
+    "paginas": 47,
+    "chunks": 198,
+    "data_processo": "2025-10-22T12:26:20.545473"
+  },
+  "bf9a67805b26aca5d97fca8ec53ba43f": {
+    "nome": "5º Aditivo-BRK_ANEXO 6- COMPROMISSO DE CAPITALIZAÇÃO DA CONCESSIONÁRIA.pdf",
+    "caminho": "C:\\Users\\compesa\\Desktop\\ppp_RAG\\data\\raw\\5º Aditivo-BRK\\5º Aditivo-BRK_ANEXO 6- COMPROMISSO DE CAPITALIZAÇÃO DA CONCESSIONÁRIA.pdf",
+    "metodo": "ocr",
+    "paginas": 2,
+    "chunks": 7,
+    "data_processo": "2025-10-22T12:26:24.401666"
+  },
+  "76c235b7f0590edd0c166efdf601e6d4": {
+    "nome": "5º Aditivo-BRK_ANEXO 7- CRONOGRAMA DE PROJETOS.pdf",
+    "caminho": "C:\\Users\\compesa\\Desktop\\ppp_RAG\\data\\raw\\5º Aditivo-BRK\\5º Aditivo-BRK_ANEXO 7- CRONOGRAMA DE PROJETOS.pdf",
+    "metodo": "ocr",
+    "paginas": 8,
+    "chunks": 43,
+    "data_processo": "2025-10-22T12:26:47.240336"
+  },
+  "be0597dd528bfc5d9cd1974da165a918": {
+    "nome": "5º Aditivo-BRK_ANEXO 8- DOSIMETRIA DAS PENALIDADES.pdf",
+    "caminho": "C:\\Users\\compesa\\Desktop\\ppp_RAG\\data\\raw\\5º Aditivo-BRK\\5º Aditivo-BRK_ANEXO 8- DOSIMETRIA DAS PENALIDADES.pdf",
+    "metodo": "ocr",
+    "paginas": 8,
+    "chunks": 24,
+    "data_processo": "2025-10-22T12:26:59.992503"
+  },
+  "2a565284c4c11587bd050f304941f9f3": {
+    "nome": "5º Aditivo-BRK_ANEXO 9 - TERMO DE TRANSFERÊNCIA DO SISTEMA EXISTENTE.pdf",
+    "caminho": "C:\\Users\\compesa\\Desktop\\ppp_RAG\\data\\raw\\5º Aditivo-BRK\\5º Aditivo-BRK_ANEXO 9 - TERMO DE TRANSFERÊNCIA DO SISTEMA EXISTENTE.pdf",
+    "metodo": "ocr",
+    "paginas": 12,
+    "chunks": 50,
+    "data_processo": "2025-10-22T12:27:20.886045"
+  },
+  "db45f3cb86a29164914db4c830c58b80": {
+    "nome": "5º Aditivo-BRK_PROTOCOLO DE RECEBIDO TCE.pdf",
+    "caminho": "C:\\Users\\compesa\\Desktop\\ppp_RAG\\data\\raw\\5º Aditivo-BRK\\5º Aditivo-BRK_PROTOCOLO DE RECEBIDO TCE.pdf",
+    "metodo": "ocr",
+    "paginas": 1,
+    "chunks": 5,
+    "data_processo": "2025-10-22T12:27:23.678814"
+  },
+  "baacfcfd9f2f374252a925729b118e43": {
+    "nome": "00.04 ANEXO 03 DO CONTRATO - PROPOSTA TÉCNICA_03.02 - PROPOSTA TECNICA METODOLOGIA EXECUTIVA PARTE 1.pdf",
+    "caminho": "C:\\Users\\compesa\\Desktop\\ppp_RAG\\data\\raw\\00.00 CONTRATO CT.PS.13.1.059-1\\00.04 ANEXO 03 DO CONTRATO - PROPOSTA TÉCNICA\\00.04 ANEXO 03 DO CONTRATO - PROPOSTA TÉCNICA_03.02 - PROPOSTA TECNICA METODOLOGIA EXECUTIVA PARTE 1.pdf",
+    "metodo": "ocr",
+    "paginas": 907,
+    "chunks": 5672,
+    "data_processo": "2025-10-22T17:00:42.451317"
+  }
+}

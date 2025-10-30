@@ -5,6 +5,12 @@ import hashlib
 import json
 import gc
 
+# AVISO: Este script 'main.py' está obsoleto.
+# Use os entrypoints dedicados:
+# - Ingestão: python src/rag_processar_corrigido.py
+# - CLI:      python src/query_cli.py
+# - Web App:  streamlit run src/rag_pipeline/app.py
+
 # Verificar e configurar Tesseract
 def verificar_tesseract():
     caminhos_possiveis = [
