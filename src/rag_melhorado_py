@@ -1,0 +1,418 @@
+import os
+import sys
+import requests
+from typing import List
+from langchain_community.vectorstores import Chroma
+from langchain_community.embeddings import HuggingFaceEmbeddings
+from langchain_community.llms import Ollama
+from langchain.chains import RetrievalQA
+from langchain.prompts import PromptTemplate
+from langchain.docstore.document import Document
+from rank_bm25 import BM25Okapi
+import numpy as np
+
+print("🔧 Sistema RAG com Busca Híbrida Avançada\n")
+
+# Verificar banco
+db_path = "./chroma_db_multiplos"
+if not os.path.exists(db_path):
+    print("❌ Banco não encontrado!")
+    sys.exit(1)
+
+# Carregar embeddings
+print("💾 Carregando sistema...")
+embeddings = HuggingFaceEmbeddings(
+    model_name="sentence-transformers/all-MiniLM-L6-v2",
+    model_kwargs={'device': 'cpu'},
+    encode_kwargs={'normalize_embeddings': True}
+)
+
+db = Chroma(persist_directory=db_path, embedding_function=embeddings)
+print("✅ Banco carregado")
+
+# Verificar Ollama
+print("🤖 Verificando Ollama...")
+try:
+    response = requests.get("http://localhost:11434/api/tags", timeout=2)
+    if response.status_code != 200:
+        raise Exception()
+    print("✅ Ollama OK\n")
+except:
+    print("❌ Ollama não está rodando!")
+    sys.exit(1)
+
+llm = Ollama(model="llama3.2:3b", temperature=0, num_ctx=4096, num_predict=1024)
+
+# ============================================================================
+# BUSCA HÍBRIDA: Vetorial + BM25
+# ============================================================================
+
+class HybridRetriever:
+    """Combina busca vetorial (semântica) com BM25 (palavra-chave)"""
+    
+    def __init__(self, vectorstore, weight_vector=0.5, weight_bm25=0.5):
+        self.vectorstore = vectorstore
+        self.weight_vector = weight_vector
+        self.weight_bm25 = weight_bm25
+        
+        # Carregar todos os documentos para BM25
+        print("📚 Indexando documentos para busca por palavra-chave...")
+        all_data = vectorstore.get()
+        
+        self.all_docs = []
+        for doc_id, text, metadata in zip(
+            all_data['ids'],
+            all_data['documents'],
+            all_data['metadatas']
+        ):
+            self.all_docs.append(Document(
+                page_content=text,
+                metadata=metadata
+            ))
+        
+        # Criar índice BM25
+        tokenized_docs = [doc.page_content.lower().split() for doc in self.all_docs]
+        self.bm25 = BM25Okapi(tokenized_docs)
+        
+        print(f"✅ {len(self.all_docs)} documentos indexados")
+    
+    def search(self, query: str, k: int = 6, filter_source: str = None) -> List[Document]:
+        """
+        Busca híbrida com filtro opcional por documento
+        
+        Args:
+            query: Pergunta do usuário
+            k: Número de documentos a retornar
+            filter_source: Nome do arquivo para filtrar (ex: "contrato.pdf")
+        """
+        
+        # 1. BUSCA VETORIAL (semântica)
+        if filter_source:
+            # Filtrar por documento específico
+            vector_results = self.vectorstore.similarity_search(
+                query,
+                k=k*2,
+                filter={"source": filter_source}
+            )
+        else:
+            vector_results = self.vectorstore.similarity_search(query, k=k*2)
+        
+        # 2. BUSCA BM25 (palavra-chave)
+        query_tokens = query.lower().split()
+        bm25_scores = self.bm25.get_scores(query_tokens)
+        
+        # Pegar top k*2 documentos do BM25
+        top_bm25_indices = np.argsort(bm25_scores)[::-1][:k*2]
+        bm25_results = [self.all_docs[i] for i in top_bm25_indices]
+        
+        # Filtrar BM25 por documento se necessário
+        if filter_source:
+            bm25_results = [
+                doc for doc in bm25_results 
+                if doc.metadata.get('source') == filter_source
+            ]
+        
+        # 3. COMBINAR E RE-RANQUEAR
+        # Criar dicionário de scores
+        doc_scores = {}
+        
+        # Scores vetoriais (normalizar de 0 a 1)
+        for i, doc in enumerate(vector_results):
+            doc_key = (doc.page_content, doc.metadata.get('source'), doc.metadata.get('page'))
+            vector_score = 1.0 - (i / len(vector_results))  # Score decrescente
+            doc_scores[doc_key] = {
+                'doc': doc,
+                'vector': vector_score * self.weight_vector,
+                'bm25': 0
+            }
+        
+        # Scores BM25 (normalizar de 0 a 1)
+        max_bm25 = max(bm25_scores) if max(bm25_scores) > 0 else 1
+        for i, doc in enumerate(bm25_results):
+            doc_key = (doc.page_content, doc.metadata.get('source'), doc.metadata.get('page'))
+            bm25_score = bm25_scores[top_bm25_indices[i]] / max_bm25
+            
+            if doc_key in doc_scores:
+                doc_scores[doc_key]['bm25'] = bm25_score * self.weight_bm25
+            else:
+                doc_scores[doc_key] = {
+                    'doc': doc,
+                    'vector': 0,
+                    'bm25': bm25_score * self.weight_bm25
+                }
+        
+        # Calcular score final e ordenar
+        scored_docs = []
+        for doc_key, scores in doc_scores.items():
+            final_score = scores['vector'] + scores['bm25']
+            scored_docs.append({
+                'doc': scores['doc'],
+                'score': final_score,
+                'vector_score': scores['vector'],
+                'bm25_score': scores['bm25']
+            })
+        
+        # Ordenar por score final
+        scored_docs.sort(key=lambda x: x['score'], reverse=True)
+        
+        # Retornar top k com informações de debug
+        return scored_docs[:k]
+
+# Criar retriever híbrido
+print("\n🔍 Criando sistema de busca híbrida...")
+hybrid_retriever = HybridRetriever(
+    db,
+    weight_vector=0.5,  # 50% busca semântica
+    weight_bm25=0.5     # 50% busca por palavra-chave
+)
+print("✅ Busca híbrida configurada\n")
+
+# ============================================================================
+# LISTAR DOCUMENTOS DISPONÍVEIS
+# ============================================================================
+
+def listar_documentos():
+    """Lista todos os documentos disponíveis"""
+    all_data = db.get()
+    sources = set(meta.get('source', 'Desconhecido') for meta in all_data['metadatas'])
+    return sorted(sources)
+
+
+documentos_disponiveis = listar_documentos()
+
+print("📄 Documentos disponíveis no sistema:")
+for i, doc in enumerate(documentos_disponiveis, 1):
+    print(f"   {i}. {doc}")
+
+# ============================================================================
+# PROMPT OTIMIZADO
+# ============================================================================
+
+template_prompt = """Você é um assistente especializado em análise de documentos contratuais e técnicos.
+
+Use EXCLUSIVAMENTE as informações dos documentos fornecidos abaixo para responder à pergunta.
+
+REGRAS CRÍTICAS:
+1. Se a informação NÃO estiver nos documentos, responda: "Não encontrei essa informação nos documentos fornecidos"
+2. SEMPRE cite o documento e página específicos
+3. NÃO invente ou deduza informações
+4. Se houver informações conflitantes, mencione todas com suas fontes
+5. Seja preciso, objetivo e profissional
+
+DOCUMENTOS RELEVANTES:
+{context}
+
+PERGUNTA: {question}
+
+RESPOSTA (citando documento e página):"""
+
+PROMPT = PromptTemplate(
+    template=template_prompt,
+    input_variables=["context", "question"]
+)
+
+# ============================================================================
+# FUNÇÃO DE BUSCA AVANÇADA
+# ============================================================================
+
+def buscar_avancada(query: str, filtrar_por_documento: str = None, 
+                   ajustar_pesos: bool = False):
+    """
+    Busca avançada com opções de filtro e ajuste
+    
+    Args:
+        query: Pergunta
+        filtrar_por_documento: Nome do arquivo (ex: "contrato.pdf")
+        ajustar_pesos: Se True, prioriza BM25 (palavra-chave)
+    """
+    
+    print(f"\n{'='*70}")
+    print(f"❓ PERGUNTA: {query}")
+    if filtrar_por_documento:
+        print(f"🎯 Filtro: {filtrar_por_documento}")
+    print('='*70)
+    
+    # Ajustar pesos se solicitado
+    if ajustar_pesos:
+        hybrid_retriever.weight_vector = 0.3
+        hybrid_retriever.weight_bm25 = 0.7
+        print("⚖️  Modo: Priorizando palavras-chave (70%)")
+    else:
+        hybrid_retriever.weight_vector = 0.5
+        hybrid_retriever.weight_bm25 = 0.5
+        print("⚖️  Modo: Balanceado (50% semântica / 50% palavra-chave)")
+    
+    # Buscar documentos
+    print("\n🔍 Buscando documentos relevantes...\n")
+    
+    scored_docs = hybrid_retriever.search(
+        query,
+        k=6,
+        filter_source=filtrar_por_documento
+    )
+    
+    if not scored_docs:
+        print("❌ Nenhum documento encontrado!")
+        return
+    
+    # Mostrar resultados com scores
+    print(f"📚 Top {len(scored_docs)} documentos encontrados:")
+    print("-"*70)
+    
+    for i, item in enumerate(scored_docs, 1):
+        doc = item['doc']
+        source = doc.metadata.get('source', '?')
+        page = doc.metadata.get('page', '?')
+        score_total = item['score']
+        score_vector = item['vector_score']
+        score_bm25 = item['bm25_score']
+        
+        print(f"\n[{i}] {source} - Página {page}")
+        print(f"    Score Total: {score_total:.3f} (Vetorial: {score_vector:.3f} | BM25: {score_bm25:.3f})")
+        
+        preview = doc.page_content[:200].replace('\n', ' ').strip()
+        print(f"    Preview: {preview}...")
+    
+    print("\n" + "-"*70)
+    
+    # Validação do usuário
+    print("\n💭 Os documentos acima são relevantes?")
+    print("   [s] Sim, gerar resposta")
+    print("   [n] Não, tentar com outro filtro")
+    print("   [p] Priorizar palavras-chave")
+    print("   [Enter] Continuar")
+    
+    resp = input(">>> ").strip().lower()
+    
+    if resp == 'n':
+        print("\n💡 Experimente:")
+        print("   1. Adicionar filtro por documento")
+        print("   2. Reformular pergunta com termos do documento")
+        print("   3. Usar busca literal (comando 'buscar')")
+        return
+    
+    if resp == 'p':
+        print("\n🔄 Repetindo busca priorizando palavras-chave...")
+        return buscar_avancada(query, filtrar_por_documento, ajustar_pesos=True)
+    
+    # Gerar resposta
+    print("\n🤖 Gerando resposta (aguarde 10-30s)...\n")
+    
+    try:
+        # Preparar contexto
+        docs_for_llm = [item['doc'] for item in scored_docs]
+        context = "\n\n".join([
+            f"[Documento: {doc.metadata.get('source')} - Página {doc.metadata.get('page')}]\n{doc.page_content}"
+            for doc in docs_for_llm
+        ])
+        
+        # Gerar resposta
+        prompt_text = PROMPT.format(context=context, question=query)
+        resposta = llm.invoke(prompt_text)
+        
+        print("="*70)
+        print("📝 RESPOSTA:")
+        print("="*70)
+        print(resposta)
+        print("="*70)
+        
+        print("\n📚 Fontes utilizadas (com scores):")
+        for i, item in enumerate(scored_docs, 1):
+            doc = item['doc']
+            source = doc.metadata.get('source', '?')
+            page = doc.metadata.get('page', '?')
+            score = item['score']
+            print(f"[{i}] {source} (pág. {page}) - Relevância: {score:.3f}")
+        
+    except Exception as e:
+        print(f"❌ Erro: {e}")
+
+# ============================================================================
+# INTERFACE INTERATIVA
+# ============================================================================
+
+print("\n" + "="*70)
+print("💬 SISTEMA RAG COM BUSCA HÍBRIDA")
+print("="*70)
+
+print("\n🎯 Comandos especiais:")
+print("   • 'filtrar [num]' - Buscar apenas no documento [num]")
+print("   • 'buscar [termo]' - Busca literal")
+print("   • 'docs' - Listar documentos")
+print("   • 'sair' - Encerrar")
+
+filtro_ativo = None
+
+while True:
+    print("\n" + "="*70)
+    
+    if filtro_ativo:
+        print(f"🎯 Filtro ativo: {filtro_ativo}")
+    
+    query = input("❓ Pergunta: ").strip()
+    
+    if not query:
+        continue
+    
+    if query.lower() in ['sair', 'exit', 'quit']:
+        break
+    
+    # Comando: Listar documentos
+    if query.lower() == 'docs':
+        print("\n📄 Documentos disponíveis:")
+        documentos_disponiveis = listar_documentos()
+        for i, doc in enumerate(documentos_disponiveis, 1):
+            print(f"   {i}. {doc}")
+        continue
+    
+    # Comando: Ativar filtro
+    if query.lower().startswith('filtrar '):
+        try:
+            num = int(query.split()[1])
+            if 1 <= num <= len(documentos_disponiveis):
+                filtro_ativo = documentos_disponiveis[num-1]
+                print(f"✅ Filtro ativado: {filtro_ativo}")
+                print("   (Digite 'filtrar off' para desativar)")
+            else:
+                print("❌ Número inválido")
+        except:
+            if 'off' in query.lower():
+                filtro_ativo = None
+                print("✅ Filtro desativado")
+            else:
+                print("❌ Uso: filtrar [número] ou filtrar off")
+        continue
+    
+    # Comando: Busca literal
+    if query.lower().startswith('buscar '):
+        termo = query[7:].strip()
+        print(f"\n🔎 Buscando termo: '{termo}'")
+        
+        all_data = db.get()
+        encontrados = []
+        
+        for text, metadata in zip(all_data['documents'], all_data['metadatas']):
+            if termo.lower() in text.lower():
+                if filtro_ativo:
+                    if metadata.get('source') == filtro_ativo:
+                        encontrados.append((text, metadata))
+                else:
+                    encontrados.append((text, metadata))
+        
+        if encontrados:
+            print(f"✅ Encontrado em {len(encontrados)} trechos")
+            for i, (text, meta) in enumerate(encontrados[:10], 1):
+                source = meta.get('source', '?')
+                page = meta.get('page', '?')
+                idx = text.lower().find(termo.lower())
+                preview = text[max(0, idx-50):idx+150]
+                print(f"\n[{i}] {source} (pág. {page})")
+                print(f"    ...{preview}...")
+        else:
+            print("❌ Termo não encontrado")
+        continue
+    
+    # Busca normal
+    buscar_avancada(query, filtrar_por_documento=filtro_ativo)
+
+print("\n✅ Encerrado!")

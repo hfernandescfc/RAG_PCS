@@ -7,7 +7,7 @@ from datetime import datetime
 from langchain_community.vectorstores import Chroma
 from langchain_community.embeddings import HuggingFaceEmbeddings
 from langchain_community.llms import Ollama
-from langchain.chains import RetrievalQA
+from langchain.chains import RetrievalQA, ConversationalRetrievalChain
 from langchain.prompts import PromptTemplate
 
 # Configuração da página
@@ -98,6 +98,25 @@ with st.sidebar:
         step=0.1,
         help="0 = mais preciso, 1 = mais criativo"
     )
+
+    # Recursos do modelo (para contornar limitações de memória)
+    num_ctx = st.slider(
+        "Contexto (num_ctx)",
+        min_value=512,
+        max_value=4096,
+        value=2048,
+        step=256,
+        help="Janela de contexto do modelo. Valores menores usam menos memória."
+    )
+
+    num_predict = st.slider(
+        "Tokens de saída (num_predict)",
+        min_value=128,
+        max_value=1024,
+        value=512,
+        step=64,
+        help="Limite de tokens gerados. Reduza para economizar memória."
+    )
     
     # Informações do sistema
     st.divider()
@@ -119,7 +138,7 @@ with st.sidebar:
 
 # Função de inicialização (cache para não recarregar sempre)
 @st.cache_resource
-def inicializar_sistema(db_path, embedding_model, ollama_model, temperature):
+def inicializar_sistema(db_path, embedding_model, ollama_model, temperature, num_ctx=2048, num_predict=512):
     """Inicializa o sistema RAG"""
     
     # Verificar se banco existe
@@ -152,8 +171,8 @@ def inicializar_sistema(db_path, embedding_model, ollama_model, temperature):
     llm = Ollama(
         model=ollama_model,
         temperature=temperature,
-        num_ctx=4096,
-        num_predict=1024
+        num_ctx=num_ctx,
+        num_predict=num_predict
     )
     
     # Prompt customizado
@@ -185,10 +204,12 @@ RESPOSTA DETALHADA:"""
 # Inicializar sistema
 try:
     db, llm, PROMPT, embeddings = inicializar_sistema(
-        db_path, 
-        embedding_model, 
-        ollama_model, 
-        temperature
+        db_path,
+        embedding_model,
+        ollama_model,
+        temperature,
+        num_ctx=num_ctx,
+        num_predict=num_predict,
     )
     
     st.success("✅ Sistema carregado com sucesso!")
@@ -246,6 +267,16 @@ with tab1:
     with col3:
         mostrar_fontes = st.checkbox("Mostrar fontes", value=True)
     
+    # Botão para limpar histórico conversacional
+    if 'chat_history' not in st.session_state:
+        st.session_state['chat_history'] = []
+    if 'historico' not in st.session_state:
+        st.session_state.historico = []
+    if st.button("🧹 Limpar histórico de conversa"):
+        st.session_state['chat_history'] = []
+        st.session_state.historico = []
+        st.success("Histórico limpo.")
+    
     if buscar_btn and query:
         # Configurar retriever
         search_type_str = "mmr" if "MMR" in search_type else "similarity"
@@ -275,23 +306,32 @@ with tab1:
                     st.caption(doc.page_content[:200] + "...")
                     st.divider()
         
-        # Criar chain
-        qa_chain = RetrievalQA.from_chain_type(
+        # Iniciar histórico de conversa
+        if 'chat_history' not in st.session_state:
+            st.session_state['chat_history'] = []  # lista de tuplas (pergunta, resposta)
+
+        # Criar chain conversacional
+        conv_chain = ConversationalRetrievalChain.from_llm(
             llm=llm,
-            chain_type="stuff",
             retriever=retriever,
             return_source_documents=True,
-            chain_type_kwargs={"prompt": PROMPT}
+            combine_docs_chain_kwargs={"prompt": PROMPT}
         )
         
         # Buscar resposta
         with st.spinner("🤖 Gerando resposta... (isso pode levar 10-30 segundos)"):
             try:
-                result = qa_chain.invoke({"query": query})
+                result = conv_chain.invoke({
+                    "question": query,
+                    "chat_history": st.session_state['chat_history']
+                })
                 
                 # Mostrar resposta
                 st.markdown("### 📝 Resposta:")
-                st.info(result['result'])
+                answer = result.get('answer') or result.get('result')
+                st.info(answer)
+                # Atualizar histórico de conversa
+                st.session_state['chat_history'].append((query, answer))
                 
                 # Mostrar fontes
                 if mostrar_fontes and result.get('source_documents'):
@@ -322,7 +362,7 @@ with tab1:
                 st.session_state.historico.append({
                     'timestamp': datetime.now().isoformat(),
                     'pergunta': query,
-                    'resposta': result['result'],
+                    'resposta': answer,
                     'num_fontes': len(result.get('source_documents', []))
                 })
                 

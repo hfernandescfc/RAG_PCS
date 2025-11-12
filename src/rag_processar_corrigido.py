@@ -4,9 +4,6 @@ import glob
 import hashlib
 import json
 import gc
-from rag_pipeline.config import get_embeddings, DB_PATH
-from rag_pipeline import utils_io as _io
-from rag_pipeline import utils_pdf as _pdf
 
 def verificar_tesseract():
     caminhos_possiveis = [
@@ -210,47 +207,6 @@ def processar_pdf_com_ocr(pdf_path, nome_arquivo, pytesseract, convert_from_path
         print(f"   ❌ Erro no OCR: {e}")
         return None, None
 
-# ---------------------------------------------------------------------------
-# Overrides para usar utilitários centralizados (evita divergência de código)
-# ---------------------------------------------------------------------------
-def _override_verificar_tesseract():
-    return _io.verificar_tesseract()
-
-def _override_verificar_poppler():
-    return _io.verificar_poppler()
-
-def _override_calcular_hash_arquivo(filepath):
-    return _io.calcular_hash_arquivo(filepath)
-
-def _override_carregar_registro_processados(registro_path="./arquivos_processados.json"):
-    return _io.carregar_registro_processados(registro_path)
-
-def _override_salvar_registro_processados(registro, registro_path="./arquivos_processados.json"):
-    return _io.salvar_registro_processados(registro, registro_path)
-
-def _override_verificar_pdf_tem_texto(pdf_path: str) -> bool:
-    return _pdf.verificar_pdf_tem_texto(pdf_path)
-
-def _override_processar_pdf_com_texto(pdf_path: str, nome_arquivo: str):
-    return _pdf.processar_pdf_com_texto(pdf_path, nome_arquivo)
-
-def _override_processar_docx(docx_path: str, nome_arquivo: str):
-    return _pdf.processar_docx(docx_path, nome_arquivo)
-
-def _override_processar_pdf_com_ocr(pdf_path, nome_arquivo, pytesseract, convert_from_path):
-    return _pdf.processar_pdf_com_ocr(pdf_path, nome_arquivo, pytesseract, convert_from_path)
-
-# Reatribuir nomes originais para usar as implementações centralizadas
-verificar_tesseract = _override_verificar_tesseract
-verificar_poppler = _override_verificar_poppler
-calcular_hash_arquivo = _override_calcular_hash_arquivo
-carregar_registro_processados = _override_carregar_registro_processados
-salvar_registro_processados = _override_salvar_registro_processados
-verificar_pdf_tem_texto = _override_verificar_pdf_tem_texto
-processar_pdf_com_texto = _override_processar_pdf_com_texto
-processar_docx = _override_processar_docx
-processar_pdf_com_ocr = _override_processar_pdf_com_ocr
-
 def processar_e_salvar_arquivo(arq_info, registro, embeddings, db_path, ocr_disponivel, 
                                pytesseract=None, convert_from_path=None):
     from langchain.text_splitter import RecursiveCharacterTextSplitter
@@ -281,10 +237,15 @@ def processar_e_salvar_arquivo(arq_info, registro, embeddings, db_path, ocr_disp
         tem_texto = verificar_pdf_tem_texto(pdf_path)
         if tem_texto:
             print("   ? Tem texto!")
-            documents, metodo = processar_pdf_com_texto(pdf_path, nome_arquivo)
+            # Preferir extração mista (texto + tabelas) quando possível
+            try:
+                from rag_pipeline.utils_pdf import processar_pdf_com_texto_e_tabelas as _mix
+                documents, metodo = _mix(pdf_path, nome_arquivo)
+            except Exception:
+                documents, metodo = processar_pdf_com_texto(pdf_path, nome_arquivo)
         if not documents and ocr_disponivel:
-            print("2??  Usando OCR...")
-            documents, metodo = processar_pdf_com_ocr(pdf_path, nome_arquivo, 
+            print("2??  Usando OCR (com detecção de tabelas)...")
+            documents, metodo = processar_pdf_com_ocr(pdf_path, nome_arquivo,
                                                       pytesseract, convert_from_path)
     elif ext == '.docx':
         documents, metodo = processar_docx(pdf_path, nome_arquivo)
@@ -456,10 +417,14 @@ if not arquivos_para_processar:
 
 # Criar embeddings
 print("\n🧠 Inicializando embeddings...")
-embeddings = get_embeddings()
+embeddings = HuggingFaceEmbeddings(
+    model_name="sentence-transformers/all-MiniLM-L6-v2",
+    model_kwargs={'device': 'cpu'},
+    encode_kwargs={'normalize_embeddings': True, 'batch_size': 8}
+)
 print("✅ Embeddings prontos")
 
-db_path = DB_PATH
+db_path = "./chroma_db_multiplos"
 
 # Conciliação: adicionar para reprocessar itens do registro que estão ausentes no banco
 try:
@@ -546,5 +511,4 @@ if os.path.exists(db_path):
     print(f"\n{'='*70}")
 
 print("\n✅ Script concluído!")
-
 
