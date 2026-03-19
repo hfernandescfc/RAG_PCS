@@ -1,9 +1,3 @@
-
----
-
-**README do `RAG_PCS`**
-
-```md
 # RAG_PCS
 
 Retrieval-Augmented Generation (RAG) application built to support document search and question answering over Programa Cidade Saneada documentation.
